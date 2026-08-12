@@ -1,6 +1,6 @@
 {
  "date": "2026-08-12",
- "generated_at": "2026-08-12T04:22:13.826626+00:00",
+ "generated_at": "2026-08-12T04:33:07.018539+00:00",
  "sources_status": {
   "rss": {
    "ok": true,
@@ -16,7 +16,7 @@
   },
   "reddit": {
    "ok": true,
-   "count": 50
+   "count": 25
   },
   "github_releases": {
    "ok": true,
@@ -33,6 +33,10 @@
   "bluesky": {
    "ok": true,
    "count": 54
+  },
+  "github_leaderboard": {
+   "ok": true,
+   "count": 24
   }
  },
  "items": [
@@ -2222,6 +2226,245 @@
    "importance": 4,
    "category": "research",
    "group_key": "dab44bfe869e20d7",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "e502944982fe325d",
+   "source_type": "hackernews",
+   "source_name": "Hacker News",
+   "title": "Show HN: Find stale, orphaned, deleted-but-retrievable RAG vectors",
+   "url": "https://github.com/rimironenko/rag-staleness-check",
+   "created_at": "2026-08-06T17:13:54Z",
+   "external_url": "https://news.ycombinator.com/item?id=49199502",
+   "author": "rimironenko",
+   "snippet": "",
+   "engagement": {
+    "points": 3,
+    "comments": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Show HN: Find stale, orphaned, deleted-but-retrievable RAG vectors",
+   "importance": 3,
+   "category": "discussion",
+   "group_key": "e502944982fe325d",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "c391a6c7a5de2ad2",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "jakeroxs/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-GGUF",
+   "url": "https://huggingface.co/jakeroxs/KAT-Coder-V2.5-Dev-35B-A3B-MTP-ABLITERATED-GGUF",
+   "created_at": "2026-08-12T04:15:17.000Z",
+   "external_url": "",
+   "author": "jakeroxs",
+   "snippet": "transformers, safetensors, gguf, qwen3_5_moe, image-text-to-text, kat-coder, kat-coder-v2.5, qwen3.6, qwen3.6-35b-a3b, moe, 35b, a3b",
+   "engagement": {
+    "likes": 1,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, gguf, qwen3_5_moe, image-text-to-text, kat-coder, kat-coder-v2.5, qwen3.6, qwen3.6-35b-a3b, moe, 35b, a3b",
+   "importance": 3,
+   "category": "discussion",
+   "group_key": "c391a6c7a5de2ad2",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "b12b797ab4f9529e",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "1010happy/BALANCED_Teacher_r14_train_gptmini-gemma-3-1b-it-seed1010",
+   "url": "https://huggingface.co/1010happy/BALANCED_Teacher_r14_train_gptmini-gemma-3-1b-it-seed1010",
+   "created_at": "2026-08-12T03:42:56.000Z",
+   "external_url": "",
+   "author": "1010happy",
+   "snippet": "transformers, safetensors, gemma3_text, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 1,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, gemma3_text, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "importance": 3,
+   "category": "research",
+   "group_key": "b12b797ab4f9529e",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "cbeffc0ccee1f88d",
+   "source_type": "hf_paper",
+   "source_name": "HF daily papers",
+   "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
+   "url": "https://huggingface.co/papers/2608.10812",
+   "created_at": "2026-08-10T20:00:00.000Z",
+   "external_url": "",
+   "author": "",
+   "snippet": "We study reference-free post-training for multilingual machine translation with open large language models. Starting from the supervised-finetuned MiLMMT-46-v0.1 models, we apply Group Relative Policy Optimization (GRPO) with a reward that averages two reference-free quality estimation models and is gated by language identification. We then linearly interpolate the supervised fine-tuning (SFT) and",
+   "engagement": {
+    "likes": 1
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "We study reference-free post-training for multilingual machine translation with open large language models. Starting from the supervised-finetuned MiLMMT-46-v0.1 models, we apply Group Relative Policy",
+   "importance": 3,
+   "category": "research",
+   "group_key": "cbeffc0ccee1f88d",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "675b0f75143eefdd",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "kyleliu789/qwen3-14b-svamp-dpo-qlora-all-caps",
+   "url": "https://huggingface.co/kyleliu789/qwen3-14b-svamp-dpo-qlora-all-caps",
+   "created_at": "2026-08-12T04:30:03.000Z",
+   "external_url": "",
+   "author": "kyleliu789",
+   "snippet": "peft, tensorboard, safetensors, base_model:adapter:Qwen/Qwen3-14B, llama-factory, lora, transformers, text-generation, conversational, base_model:Qwen/Qwen3-14B, license:other, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "peft, tensorboard, safetensors, base_model:adapter:Qwen/Qwen3-14B, llama-factory, lora, transformers, text-generation, conversational, base_model:Qwen/Qwen3-14B, license:other, region:us",
+   "importance": 3,
+   "category": "fine-tune",
+   "group_key": "675b0f75143eefdd",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "dc2ee139bed88118",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "SauravMahalik/sarvam-1-odia-ft",
+   "url": "https://huggingface.co/SauravMahalik/sarvam-1-odia-ft",
+   "created_at": "2026-08-12T04:29:15.000Z",
+   "external_url": "",
+   "author": "SauravMahalik",
+   "snippet": "transformers, safetensors, llama, text-generation, indic, odia, finetune, conversational, or, en, base_model:sarvamai/sarvam-1, base_model:finetune:sarvamai/sarvam-1",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, llama, text-generation, indic, odia, finetune, conversational, or, en, base_model:sarvamai/sarvam-1, base_model:finetune:sarvamai/sarvam-1",
+   "importance": 3,
+   "category": "fine-tune",
+   "group_key": "dc2ee139bed88118",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "437e3f3f6a2f7350",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "joannetai520/16_bit_model_try4",
+   "url": "https://huggingface.co/joannetai520/16_bit_model_try4",
+   "created_at": "2026-08-12T04:25:52.000Z",
+   "external_url": "",
+   "author": "joannetai520",
+   "snippet": "transformers, safetensors, llama, text-generation, text-generation-inference, unsloth, conversational, en, license:apache-2.0, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, llama, text-generation, text-generation-inference, unsloth, conversational, en, license:apache-2.0, endpoints_compatible, region:us",
+   "importance": 3,
+   "category": "discussion",
+   "group_key": "437e3f3f6a2f7350",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "7b26bfd04d8d9e05",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "1010happy/BALANCED_claude_max_max7_perblock35-gemma-3-1b-it-seed1010",
+   "url": "https://huggingface.co/1010happy/BALANCED_claude_max_max7_perblock35-gemma-3-1b-it-seed1010",
+   "created_at": "2026-08-12T03:33:31.000Z",
+   "external_url": "",
+   "author": "1010happy",
+   "snippet": "transformers, safetensors, gemma3_text, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, gemma3_text, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "importance": 3,
+   "category": "research",
+   "group_key": "7b26bfd04d8d9e05",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "ff5efc6f3d9ef0ad",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "1010happy/BALANCED_claude_stagger_cur1to7_perblock5-Qwen2-5-1-5B-Instruct-seed1010",
+   "url": "https://huggingface.co/1010happy/BALANCED_claude_stagger_cur1to7_perblock5-Qwen2-5-1-5B-Instruct-seed1010",
+   "created_at": "2026-08-12T03:28:11.000Z",
+   "external_url": "",
+   "author": "1010happy",
+   "snippet": "transformers, safetensors, qwen2, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, qwen2, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "importance": 3,
+   "category": "research",
+   "group_key": "ff5efc6f3d9ef0ad",
+   "curated": false,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "2541436ad3300ab2",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "1010happy/BALANCED_claude_max_max7_perblock35-Qwen2-5-1-5B-Instruct-seed1010",
+   "url": "https://huggingface.co/1010happy/BALANCED_claude_max_max7_perblock35-Qwen2-5-1-5B-Instruct-seed1010",
+   "created_at": "2026-08-12T03:24:42.000Z",
+   "external_url": "",
+   "author": "1010happy",
+   "snippet": "transformers, safetensors, qwen2, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "transformers, safetensors, qwen2, text-generation, trl, sft, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "importance": 3,
+   "category": "research",
+   "group_key": "2541436ad3300ab2",
    "curated": false,
    "pinned": false,
    "tags": []
