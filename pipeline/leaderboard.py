@@ -62,7 +62,26 @@ def _entry(repo: dict, delta: int | None) -> dict:
     }
 
 
-def build(history: dict) -> dict:
+def watch(history: dict, repos: list[str]) -> list[dict]:
+    """Always-tracked repos: direct lookups (no search quota), sorted by stars."""
+    now = datetime.now(tz=timezone.utc)
+    today = now.date().isoformat()
+    entries = []
+    for name in repos:
+        try:
+            repo = http.get(f"https://api.github.com/repos/{name}",
+                            headers=http.github_headers()).json()
+        except Exception as exc:  # noqa: BLE001 — a renamed/deleted repo must not kill the board
+            log.warning("watchlist repo failed %s: %s", name, exc)
+            continue
+        delta = tracked_delta(history, repo["full_name"], repo["stargazers_count"], today)
+        entries.append(_entry(repo, delta))
+        history.setdefault(repo["full_name"], {})[today] = repo["stargazers_count"]
+    entries.sort(key=lambda e: e["stars"], reverse=True)
+    return entries
+
+
+def build(history: dict, watch_repos: list[str] | None = None) -> dict:
     now = datetime.now(tz=timezone.utc)
     today = now.date().isoformat()
 
@@ -102,6 +121,7 @@ def build(history: dict) -> dict:
         if not history[name]:
             del history[name]
 
-    log.info("leaderboard: %d top, %d rising, %d repos tracked",
-             len(top), len(rising_list), len(history))
-    return {"top": top, "rising": rising_list}
+    watched = watch(history, watch_repos or [])
+    log.info("leaderboard: %d top, %d rising, %d watched, %d repos tracked",
+             len(top), len(rising_list), len(watched), len(history))
+    return {"top": top, "rising": rising_list, "watch": watched}

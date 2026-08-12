@@ -159,6 +159,11 @@
       (boards.top || []).map((r) => row(r, true)).join("");
     document.getElementById("board-rising").innerHTML =
       (boards.rising || []).map((r) => row(r, true)).join("");
+    if (boards.watch?.length) {
+      document.getElementById("board-watch-wrap").classList.remove("hidden");
+      document.getElementById("board-watch").innerHTML =
+        boards.watch.map((r) => row(r, true)).join("");
+    }
   }
 
   // ---------- status strip ----------

@@ -44,6 +44,26 @@ github_releases:
   - repo: huggingface/transformers
     enabled: true
 
+# Repos ALWAYS shown on the site's watchlist board with stars + growth,
+# regardless of how they rank globally. Editable from the admin console.
+github_watchlist:
+  - repo: ruvnet/ruflo
+    enabled: true
+  - repo: NousResearch/hermes-agent
+    enabled: true
+  - repo: affaan-m/ECC
+    enabled: true
+  - repo: antirez/h3.c
+    enabled: true
+  - repo: FareedKhan-dev/kimi-k3-in-c
+    enabled: true
+  - repo: multica-ai/andrej-karpathy-skills
+    enabled: true
+  - repo: vllm-project/vllm
+    enabled: true
+  - repo: ggml-org/llama.cpp
+    enabled: true
+
 huggingface:
   enabled: true
   models_limit: 50

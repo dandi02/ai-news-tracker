@@ -79,8 +79,10 @@ def main(argv: list[str] | None = None) -> int:
     # ---- github leaderboard (non-fatal) ----
     star_history = leaderboard.load_history(data_dir / "star_history.json")
     boards = None
+    watch_repos = [w["repo"] for w in sources.get("github_watchlist", [])
+                   if w.get("enabled", True)]
     try:
-        boards = leaderboard.build(star_history)
+        boards = leaderboard.build(star_history, watch_repos)
         sources_status["github_leaderboard"] = {
             "ok": True, "count": len(boards["top"]) + len(boards["rising"])}
     except Exception as exc:  # noqa: BLE001 — the boards are a bonus, never fatal

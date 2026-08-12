@@ -90,6 +90,7 @@
   const LIST_SECTIONS = [
     { key: "reddit", title: "Subreddits", fields: ["name"] },
     { key: "github_releases", title: "GitHub release watchlist (owner/repo)", fields: ["repo"] },
+    { key: "github_watchlist", title: "GitHub star watchlist — always on the boards (owner/repo)", fields: ["repo"] },
     { key: "feeds", title: "RSS / blog feeds", fields: ["name", "url"] },
     { key: "youtube", title: "YouTube channels", fields: ["name", "channel_id"] },
     { key: "bluesky", title: "Bluesky handles", fields: ["handle"] },
