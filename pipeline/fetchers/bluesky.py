@@ -36,14 +36,17 @@ def fetch(sources: dict, keywords: dict, limit: int = 0) -> list[Item]:
                 continue
             uri = post.get("uri", "")  # at://did/app.bsky.feed.post/rkey
             rkey = uri.rsplit("/", 1)[-1] if uri else ""
+            # reposts carry the ORIGINAL author's rkey — the URL must use the
+            # post author's handle, not the followed account's
+            author = post.get("author", {}).get("handle") or handle
             items.append(Item.make(
                 source_type="bluesky",
                 source_name=f"@{handle}",
                 title=text[:200] or "(link post)",
-                url=f"https://bsky.app/profile/{handle}/post/{rkey}",
+                url=f"https://bsky.app/profile/{author}/post/{rkey}",
                 external_url=external,
                 created_at=record.get("createdAt", ""),
-                author=handle,
+                author=author,
                 snippet=text[:400],
                 engagement={"likes": post.get("likeCount", 0) or 0,
                             "comments": post.get("replyCount", 0) or 0},

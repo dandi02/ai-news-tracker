@@ -17,12 +17,25 @@ RSS_ITEMS = 40
 
 def write_day_archive(days_dir: Path, day: str, items: list[dict],
                       sources_status: dict) -> None:
+    """Write a day's archive, MERGING with any existing file for that day.
+
+    Same-day re-runs (admin "Re-scan now") only carry newly-seen items — an
+    overwrite would wipe everything published earlier that day.
+    """
     days_dir.mkdir(parents=True, exist_ok=True)
-    (days_dir / f"{day}.json").write_text(json.dumps({
+    path = days_dir / f"{day}.json"
+    merged = {it["id"]: it for it in items}
+    try:
+        for it in json.loads(path.read_text()).get("items", []):
+            merged.setdefault(it["id"], it)
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    out = sorted(merged.values(), key=lambda i: i.get("importance", 0), reverse=True)
+    path.write_text(json.dumps({
         "date": day,
         "generated_at": datetime.now(tz=timezone.utc).isoformat(),
         "sources_status": sources_status,
-        "items": items,
+        "items": out,
     }, ensure_ascii=False, indent=1))
 
 
