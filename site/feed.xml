@@ -4,7 +4,7 @@
   <title>SQP AI News Tracker</title>
   <link>https://dandi02.github.io/ai-news-tracker/</link>
   <description>Daily curated open-source LLM news for SQP developers</description>
-  <lastBuildDate>Wed, 12 Aug 2026 04:10:43 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 04:22:13 +0000</lastBuildDate>
   <item>
     <title>[research] Qwen/Qwen2.5-7B-Instruct</title>
     <link>https://huggingface.co/Qwen/Qwen2.5-7B-Instruct</link>
@@ -181,6 +181,31 @@
     <description>Nvidia's Risky Business (via Hacker News, importance 7/10)</description>
   </item>
   <item>
+    <title>[research] I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face to steal the answers to the benchmark simonwillison.net/202</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3mrbjg3u5tk2z</link>
+    <guid isPermaLink="false">e2adfd20b4b76af6</guid>
+    <pubDate>Wed, 22 Jul 2026 23:53:20 +0000</pubDate>
+    <description>I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face to steal the answers to the benchmark simonwillison.net/202 (via @simonwillison.net, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] This demo of structured data extraction running on an LLM that executes entirely in the browser (Chrome only for the moment since it uses WebGPU) is amazing
+
+My notes here: simonwillison.net/2024/Nov/</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3lc4ik574b22s</link>
+    <guid isPermaLink="false">2efe3a8da71ff489</guid>
+    <pubDate>Fri, 29 Nov 2024 21:10:17 +0000</pubDate>
+    <description>This demo of structured data extraction running on an LLM that executes entirely in the browser (Chrome only for the moment since it uses WebGPU) is amazing
+
+My notes here: simonwillison.net/2024/Nov/ (via @reach-vb.hf.co, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[tooling] My notes on Kimi K3, plus some thoughts on what we can still learn from the pelican benchmark even while it becomes further detached from how good the models are at the things that matter (like agenti</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3mqs2y7gutk2a</link>
+    <guid isPermaLink="false">24e26f3e0b7e72d8</guid>
+    <pubDate>Thu, 16 Jul 2026 20:25:06 +0000</pubDate>
+    <description>My notes on Kimi K3, plus some thoughts on what we can still learn from the pelican benchmark even while it becomes further detached from how good the models are at the things that matter (like agenti (via @simonwillison.net, importance 6/10)</description>
+  </item>
+  <item>
     <title>[discussion] AtomicChat/Ling-3.0-flash-GGUF</title>
     <link>https://huggingface.co/AtomicChat/Ling-3.0-flash-GGUF</link>
     <guid isPermaLink="false">de0b89b4fc559dd2</guid>
@@ -237,57 +262,40 @@
     <description>We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face to steal the answers to the benchmark simonwillison.net/202</title>
-    <link>https://bsky.app/profile/simonwillison.net/post/3mrbjg3u5tk2z</link>
-    <guid isPermaLink="false">e2adfd20b4b76af6</guid>
-    <pubDate>Wed, 22 Jul 2026 23:53:20 +0000</pubDate>
-    <description>I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face to steal the answers to the benchmark simonwillison.net/202 (via @simonwillison.net, importance 6/10)</description>
-  </item>
-  <item>
-    <title>[discussion] This demo of structured data extraction running on an LLM that executes entirely in the browser (Chrome only for the moment since it uses WebGPU) is amazing
+    <title>[discussion] Hugging Face just published a highly detailed technical account of OpenAI's accidental cyberattack on their systems - it's wild how sophisticated this was: huggingface.co/blog/agent-i...
 
-My notes here: simonwillison.net/2024/Nov/</title>
-    <link>https://bsky.app/profile/reach-vb.hf.co/post/3lc4ik574b22s</link>
-    <guid isPermaLink="false">8f6a1e92050d2ea6</guid>
-    <pubDate>Fri, 29 Nov 2024 21:10:17 +0000</pubDate>
-    <description>This demo of structured data extraction running on an LLM that executes entirely in the browser (Chrome only for the moment since it uses WebGPU) is amazing
+Wrote up som</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3mrqeabti3s2y</link>
+    <guid isPermaLink="false">be7aca7802803c7f</guid>
+    <pubDate>Tue, 28 Jul 2026 21:30:33 +0000</pubDate>
+    <description>Hugging Face just published a highly detailed technical account of OpenAI's accidental cyberattack on their systems - it's wild how sophisticated this was: huggingface.co/blog/agent-i...
 
-My notes here: simonwillison.net/2024/Nov/ (via @reach-vb.hf.co, importance 6/10)</description>
+Wrote up som (via @simonwillison.net, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] My notes on Kimi K3, plus some thoughts on what we can still learn from the pelican benchmark even while it becomes further detached from how good the models are at the things that matter (like agenti</title>
-    <link>https://bsky.app/profile/simonwillison.net/post/3mqs2y7gutk2a</link>
-    <guid isPermaLink="false">24e26f3e0b7e72d8</guid>
-    <pubDate>Thu, 16 Jul 2026 20:25:06 +0000</pubDate>
-    <description>My notes on Kimi K3, plus some thoughts on what we can still learn from the pelican benchmark even while it becomes further detached from how good the models are at the things that matter (like agenti (via @simonwillison.net, importance 6/10)</description>
+    <title>[discussion] Just had to create an "accidental-cyberattacks" tag on my blog
+
+We're up to four now: the original OpenAI+Hugging Face one, Anthropic's me-too attacks, then two new ones from the UK AI Safety Institut</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3msepngc2kk26</link>
+    <guid isPermaLink="false">5dc58a9bd216de24</guid>
+    <pubDate>Wed, 05 Aug 2026 23:47:59 +0000</pubDate>
+    <description>Just had to create an "accidental-cyberattacks" tag on my blog
+
+We're up to four now: the original OpenAI+Hugging Face one, Anthropic's me-too attacks, then two new ones from the UK AI Safety Institut (via @simonwillison.net, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16</title>
-    <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16</link>
-    <guid isPermaLink="false">52efa5eb21ba7229</guid>
-    <pubDate>Sat, 01 Aug 2026 06:55:21 +0000</pubDate>
-    <description>transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de (via HF trending, importance 5/10)</description>
+    <title>[discussion] Thanks to the video from the Black Hat security conference of OpenAI's presentation about "The Hugging Face Incident" we now have a detailed timeline of what happened from OpenAI's perspective - I wro</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3msjr3mlnz22x</link>
+    <guid isPermaLink="false">ecd8930782baf2e1</guid>
+    <pubDate>Fri, 07 Aug 2026 23:57:08 +0000</pubDate>
+    <description>Thanks to the video from the Black Hat security conference of OpenAI's presentation about "The Hugging Face Incident" we now have a detailed timeline of what happened from OpenAI's perspective - I wro (via @simonwillison.net, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] inclusionAI/Ling-3.0-flash</title>
-    <link>https://huggingface.co/inclusionAI/Ling-3.0-flash</link>
-    <guid isPermaLink="false">b6d110c33116df37</guid>
-    <pubDate>Sun, 02 Aug 2026 16:14:41 +0000</pubDate>
-    <description>safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, eval-results, region:us (via HF trending, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[tooling] badtheorylabs/BTL-4</title>
-    <link>https://huggingface.co/badtheorylabs/BTL-4</link>
-    <guid isPermaLink="false">fed410bd69f8439b</guid>
-    <pubDate>Wed, 05 Aug 2026 19:56:05 +0000</pubDate>
-    <description>transformers, safetensors, qwen3_5_moe, image-text-to-text, agentic, tool-use, code, reasoning, text-generation, conversational, license:apache-2.0, endpoints_compatible (via HF trending, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[discussion] Akahsizrr/fuse-1-Lite</title>
-    <link>https://huggingface.co/Akahsizrr/fuse-1-Lite</link>
-    <guid isPermaLink="false">953b7db522ba839f</guid>
-    <pubDate>Wed, 05 Aug 2026 14:51:09 +0000</pubDate>
-    <description>transformers, safetensors, fuse3, text-generation, mixture-of-experts, MoE, coding, python, code-generation, LFM2, Qwen, LiquidAI (via HF trending, importance 5/10)</description>
+    <title>[discussion] I have converted a portion of my NLP Online Masters course to blog form. This is the progression I present that takes one from recurrent neural network to seq2seq with attention to transformer. mark-r</title>
+    <link>https://bsky.app/profile/markriedl.bsky.social/post/3lbsxpvv7mk2t</link>
+    <guid isPermaLink="false">a40e7d7d44d60c9e</guid>
+    <pubDate>Tue, 26 Nov 2024 02:15:19 +0000</pubDate>
+    <description>I have converted a portion of my NLP Online Masters course to blog form. This is the progression I present that takes one from recurrent neural network to seq2seq with attention to transformer. mark-r (via @reach-vb.hf.co, importance 5/10)</description>
   </item>
 </channel>
 </rss>
