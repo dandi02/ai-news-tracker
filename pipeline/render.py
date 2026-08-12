@@ -39,7 +39,8 @@ def write_day_archive(days_dir: Path, day: str, items: list[dict],
     }, ensure_ascii=False, indent=1))
 
 
-def build_feed_json(days_dir: Path, feed_path: Path, overrides: dict) -> dict:
+def build_feed_json(days_dir: Path, feed_path: Path, overrides: dict,
+                    extra: dict | None = None) -> dict:
     """Merge the last FEED_WINDOW_DAYS day-archives into site/data/feed.json.
 
     Overrides are re-applied at merge time so pins/hides done after a day was
@@ -68,6 +69,7 @@ def build_feed_json(days_dir: Path, feed_path: Path, overrides: dict) -> dict:
         "generated_at": datetime.now(tz=timezone.utc).isoformat(),
         "sources_status": days[0]["sources_status"] if days else {},
         "days": days,
+        **(extra or {}),
     }
     feed_path.parent.mkdir(parents=True, exist_ok=True)
     feed_path.write_text(json.dumps(feed, ensure_ascii=False))

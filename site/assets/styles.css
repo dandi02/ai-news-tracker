@@ -122,6 +122,21 @@ h2 { font-size: 1rem; margin: 1.4rem 0 0.6rem; color: var(--text-dim); }
 .uncurated { font-style: italic; }
 .empty { color: var(--text-dim); text-align: center; margin-top: 2rem; }
 
+.boards { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin: 0.4rem 0 1rem; }
+@media (max-width: 640px) { .boards { grid-template-columns: 1fr; } }
+.board {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 0.6rem 0.9rem;
+}
+.board h2 { margin: 0.1rem 0 0.5rem; }
+.board ol { margin: 0; padding-left: 1.4rem; }
+.board li { margin-bottom: 0.35rem; font-size: 0.85rem; }
+.board .stars { color: var(--text-dim); white-space: nowrap; }
+.board .delta { color: #059669; font-weight: 600; white-space: nowrap; }
+[data-theme="dark"] .board .delta { color: #34d399; }
+.board .desc { display: block; color: var(--text-dim); font-size: 0.76rem;
+               overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
 details.day { margin-bottom: 0.4rem; }
 details.day summary {
   cursor: pointer; font-size: 0.95rem; font-weight: 600;

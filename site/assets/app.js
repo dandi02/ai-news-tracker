@@ -142,6 +142,25 @@
     render();
   });
 
+  // ---------- github leaderboard ----------
+  const fmtStars = (n) => n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
+
+  function renderBoards(feed) {
+    const boards = feed.github_leaderboard;
+    if (!boards || (!boards.top?.length && !boards.rising?.length)) return;
+    document.getElementById("gh-boards").classList.remove("hidden");
+    const row = (r, showDelta) => `<li>
+      <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>
+      <span class="stars">★ ${fmtStars(r.stars)}</span>
+      ${showDelta && r.delta_per_day ? `<span class="delta">+${fmtStars(r.delta_per_day)}/day</span>` : ""}
+      ${r.description ? `<span class="desc" title="${esc(r.description)}">${esc(r.description)}</span>` : ""}
+    </li>`;
+    document.getElementById("board-top").innerHTML =
+      (boards.top || []).map((r) => row(r, true)).join("");
+    document.getElementById("board-rising").innerHTML =
+      (boards.rising || []).map((r) => row(r, true)).join("");
+  }
+
   // ---------- status strip ----------
   function showStatus(feed) {
     const failures = Object.entries(feed.sources_status || {})
@@ -196,6 +215,7 @@
     updated.textContent = `Updated ${relTime(feed.generated_at)}`;
     updated.title = feed.generated_at;
     showStatus(feed);
+    renderBoards(feed);
     render();
   }
 

@@ -17,7 +17,7 @@ from pathlib import Path
 
 import yaml
 
-from . import curator, dedupe, http, overrides as overrides_mod, prefilter, render
+from . import curator, dedupe, http, leaderboard, overrides as overrides_mod, prefilter, render
 from .fetchers import REGISTRY
 
 log = logging.getLogger("pipeline")
@@ -76,6 +76,17 @@ def main(argv: list[str] | None = None) -> int:
         log.error("every fetcher failed — keeping yesterday's feed, exiting nonzero")
         return 1
 
+    # ---- github leaderboard (non-fatal) ----
+    star_history = leaderboard.load_history(data_dir / "star_history.json")
+    boards = None
+    try:
+        boards = leaderboard.build(star_history)
+        sources_status["github_leaderboard"] = {
+            "ok": True, "count": len(boards["top"]) + len(boards["rising"])}
+    except Exception as exc:  # noqa: BLE001 — the boards are a bonus, never fatal
+        sources_status["github_leaderboard"] = {"ok": False, "error": str(exc)[:300]}
+        log.error("github leaderboard FAILED: %s", exc)
+
     # ---- dedupe + prefilter ----
     items = dedupe.dedupe(items, seen)
     items = prefilter.prefilter(items, keywords)
@@ -104,7 +115,8 @@ def main(argv: list[str] | None = None) -> int:
             target = days_dir / f.name
             if not target.exists():
                 target.write_text(f.read_text())
-    feed = render.build_feed_json(days_dir, site_data / "feed.json", ov)
+    feed = render.build_feed_json(days_dir, site_data / "feed.json", ov,
+                                  extra={"github_leaderboard": boards} if boards else None)
     render.build_rss(feed, out_root / "site" / "feed.xml", site_url())
 
     # ---- save state ----
@@ -112,6 +124,7 @@ def main(argv: list[str] | None = None) -> int:
         # mark everything that was evaluated (kept or dropped) so it isn't re-curated
         dedupe.mark_seen(seen, items)
         dedupe.save_seen(data_dir / "seen.json", seen)
+        leaderboard.save_history(data_dir / "star_history.json", star_history)
         http.save_cache()
 
     log.info("done: %d items published for %s -> %s", len(kept), day,
