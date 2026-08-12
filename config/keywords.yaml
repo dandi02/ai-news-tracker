@@ -1,0 +1,92 @@
+# Keyword configuration for prefiltering and fallback scoring.
+
+# An item passes the prefilter if it matches any include keyword (case-insensitive
+# substring on title + snippet) OR clears its source's engagement threshold.
+include:
+  - llm
+  - llama
+  - mistral
+  - mixtral
+  - qwen
+  - deepseek
+  - gemma
+  - phi-
+  - olmo
+  - "open source"
+  - open-source
+  - open-weight
+  - open weights
+  - gguf
+  - quantiz
+  - fine-tun
+  - finetun
+  - lora
+  - qlora
+  - moe
+  - mixture of experts
+  - inference
+  - vllm
+  - sglang
+  - llama.cpp
+  - ollama
+  - transformer
+  - context window
+  - benchmark
+  - mmlu
+  - reasoning model
+  - instruct
+  - chat model
+  - foundation model
+  - "7b"
+  - "8b"
+  - "13b"
+  - "70b"
+  - tokenizer
+  - rlhf
+  - dpo
+  - distill
+  - agentic
+  - "function calling"
+  - "tool use"
+  - rag
+  - embedding
+
+# Items matching any exclude keyword are dropped outright (known noise).
+exclude:
+  - hiring
+  - "we're hiring"
+  - job posting
+  - "help me choose a laptop"
+  - crypto
+  - nft
+  - giveaway
+
+# Queries used against the Hacker News Algolia search API.
+hn_queries:
+  - llama
+  - mistral
+  - qwen
+  - deepseek
+  - "open source llm"
+  - ollama
+  - vllm
+  - gguf
+
+# Fallback scoring (used when the Claude call fails; importance 1-10).
+fallback:
+  # engagement normalization: importance += min(cap, metric / divisor)
+  engagement_weights:
+    points:    { divisor: 100, cap: 4 }
+    comments:  { divisor: 100, cap: 2 }
+    stars:     { divisor: 200, cap: 4 }
+    likes:     { divisor: 50,  cap: 3 }
+    downloads: { divisor: 20000, cap: 3 }
+  keyword_hit_bonus: 1
+  base_score: 2
+  # category guesses by keyword, first match wins
+  category_hints:
+    new-model-release: [release, "weights", launch, announcing, introduces]
+    tooling: [tool, cli, library, framework, server, plugin, vscode, api]
+    research: [paper, arxiv, study, research, benchmark]
+    fine-tune: [fine-tun, finetun, lora, qlora, distill]
+    dataset: [dataset, corpus, data set]

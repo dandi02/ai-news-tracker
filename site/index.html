@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQP AI News Tracker</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="alternate" type="application/rss+xml" title="SQP AI News" href="feed.xml">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1>🛰️ SQP AI News Tracker</h1>
+      <div class="topbar-meta">
+        <span id="updated-at" title="Last pipeline run"></span>
+        <a href="feed.xml" class="pill" title="Subscribe via RSS">RSS</a>
+        <a href="admin.html" class="pill" title="Admin console">Admin</a>
+        <button id="theme-toggle" class="pill" title="Toggle dark/light">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="status-strip" class="status-strip hidden"></div>
+
+  <main>
+    <section class="controls">
+      <input type="search" id="search" placeholder="Search titles &amp; summaries…">
+      <div class="chips" id="category-chips"></div>
+      <div class="chips" id="source-chips"></div>
+      <label class="slider-label">
+        Min importance <output id="importance-value">1</output>
+        <input type="range" id="importance" min="1" max="10" value="1">
+      </label>
+    </section>
+
+    <section id="pinned-section" class="hidden">
+      <h2>📌 Pinned</h2>
+      <div id="pinned-items"></div>
+    </section>
+
+    <section id="days"></section>
+
+    <p id="empty-state" class="hidden empty">Nothing matches the current filters.</p>
+  </main>
+
+  <footer>
+    <p>Automated daily scan of GitHub, Hugging Face, Reddit, Hacker News, blogs,
+       YouTube &amp; Bluesky — curated by Claude. Sources managed in the
+       <a href="admin.html">admin console</a>.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

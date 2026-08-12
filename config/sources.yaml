@@ -1,0 +1,105 @@
+# Source registry for the SQP AI News Tracker.
+# Edited by hand or through the admin console (site/admin.html).
+# Every entry supports `enabled: true|false`.
+
+reddit:
+  - name: LocalLLaMA
+    enabled: true
+  - name: MachineLearning
+    enabled: true
+  - name: LocalLLM
+    enabled: true
+
+github_search:
+  enabled: true
+  # Repos created in the last N days matching the queries below.
+  created_within_days: 7
+  min_stars: 30
+  queries:
+    - 'llm OR gguf OR "inference engine" OR quantization'
+    - 'topic:llm'
+
+github_releases:
+  # owner/repo entries — releases fetched via public releases.atom (no API quota).
+  - repo: meta-llama/llama-models
+    enabled: true
+  - repo: mistralai/mistral-inference
+    enabled: true
+  - repo: deepseek-ai/DeepSeek-V3
+    enabled: true
+  - repo: QwenLM/Qwen3
+    enabled: true
+  - repo: allenai/OLMo
+    enabled: true
+  - repo: ggml-org/llama.cpp
+    enabled: true
+  - repo: vllm-project/vllm
+    enabled: true
+  - repo: ollama/ollama
+    enabled: true
+  - repo: unslothai/unsloth
+    enabled: true
+  - repo: sgl-project/sglang
+    enabled: true
+  - repo: huggingface/transformers
+    enabled: true
+
+huggingface:
+  enabled: true
+  models_limit: 50
+  trending_limit: 30
+  daily_papers: true
+
+hackernews:
+  enabled: true
+  front_page: true
+  min_points: 20
+  # keywords come from config/keywords.yaml (hn_queries)
+
+feeds:
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    enabled: true
+  # Ollama and Meta AI publish no RSS feeds — their releases are covered via the
+  # GitHub release watchlist (ollama/ollama, meta-llama/*) and HN/Reddit pickup.
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    enabled: true
+  - name: Interconnects
+    url: https://www.interconnects.ai/feed
+    enabled: true
+  - name: Latent Space
+    url: https://www.latent.space/feed
+    enabled: true
+  - name: Mistral News
+    url: https://mistral.ai/rss.xml
+    enabled: true
+  - name: Qwen Blog
+    url: https://qwenlm.github.io/blog/index.xml
+    enabled: true
+  - name: arXiv cs.CL
+    url: https://rss.arxiv.org/rss/cs.CL
+    enabled: true
+    # arXiv is high-volume: entries must match include keywords, capped hard.
+    keyword_gate: true
+    max_items: 20
+
+youtube:
+  # channel_id from the channel page source ("channel_id=" or /channel/UC...)
+  - name: Matthew Berman
+    channel_id: UCawZsQWqfGSbCI5yjkdVkTA
+    enabled: true
+  - name: AI Explained
+    channel_id: UCNJ1Ymd5yFuUPtn21xtRbbw
+    enabled: true
+  - name: Yannic Kilcher
+    channel_id: UCZHmQk67mSJgfCCTn7xBfew
+    enabled: true
+
+bluesky:
+  - handle: simonwillison.net
+    enabled: true
+  - handle: natolambert.bsky.social
+    enabled: true
+  - handle: reach-vb.hf.co
+    enabled: true
