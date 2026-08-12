@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>SQP AI News Tracker</title>
+  <link>https://dandi02.github.io/ai-news-tracker/</link>
+  <description>Daily curated open-source LLM news for SQP developers</description>
+  <lastBuildDate>Wed, 12 Aug 2026 04:10:43 +0000</lastBuildDate>
+  <item>
+    <title>[research] Qwen/Qwen2.5-7B-Instruct</title>
+    <link>https://huggingface.co/Qwen/Qwen2.5-7B-Instruct</link>
+    <guid isPermaLink="false">f78a59b988be9c6b</guid>
+    <pubDate>Mon, 16 Sep 2024 11:55:40 +0000</pubDate>
+    <description>transformers, safetensors, qwen2, text-generation, chat, conversational, en, arxiv:2309.00071, arxiv:2407.10671, base_model:Qwen/Qwen2.5-7B, base_model:finetune:Qwen/Qwen2.5-7B, license:apache-2.0 (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[discussion] meta-llama/Llama-3.1-8B-Instruct</title>
+    <link>https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct</link>
+    <guid isPermaLink="false">f0a51927e98b58c1</guid>
+    <pubDate>Thu, 18 Jul 2024 08:56:00 +0000</pubDate>
+    <description>transformers, safetensors, llama, text-generation, facebook, meta, pytorch, llama-3, conversational, en, de, fr (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[research] zai-org/GLM-5.2</title>
+    <link>https://huggingface.co/zai-org/GLM-5.2</link>
+    <guid isPermaLink="false">54a13779046b926a</guid>
+    <pubDate>Tue, 16 Jun 2026 07:39:20 +0000</pubDate>
+    <description>transformers, safetensors, glm_moe_dsa, text-generation, conversational, en, zh, arxiv:2602.15763, arxiv:2603.12201, license:mit, eval-results, endpoints_compatible (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[research] deepseek-ai/DeepSeek-V4-Flash</title>
+    <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash</link>
+    <guid isPermaLink="false">1fcf7628480f3713</guid>
+    <pubDate>Wed, 22 Apr 2026 06:04:20 +0000</pubDate>
+    <description>transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, deploy:azure (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[research] deepseek-ai/DeepSeek-V4-Flash-0731</title>
+    <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731</link>
+    <guid isPermaLink="false">c89447e4cc8f9029</guid>
+    <pubDate>Fri, 31 Jul 2026 07:30:24 +0000</pubDate>
+    <description>transformers, safetensors, deepseek_v4, text-generation, conversational, arxiv:2606.19348, license:mit, eval-results, endpoints_compatible, 8-bit, fp8, deploy:azure (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[research] microsoft/Phi-3.5-mini-instruct</title>
+    <link>https://huggingface.co/microsoft/Phi-3.5-mini-instruct</link>
+    <guid isPermaLink="false">bb757224515fb36b</guid>
+    <pubDate>Fri, 16 Aug 2024 20:48:26 +0000</pubDate>
+    <description>transformers, safetensors, phi3, text-generation, nlp, code, conversational, custom_code, multilingual, arxiv:2404.14219, arxiv:2407.13833, arxiv:2403.06412 (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[research] deepseek-ai/DeepSeek-V3</title>
+    <link>https://huggingface.co/deepseek-ai/DeepSeek-V3</link>
+    <guid isPermaLink="false">512ba017cfc839b6</guid>
+    <pubDate>Wed, 25 Dec 2024 12:52:23 +0000</pubDate>
+    <description>transformers, safetensors, deepseek_v3, text-generation, conversational, custom_code, arxiv:2412.19437, eval-results, text-generation-inference, endpoints_compatible, fp8, region:us (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[research] google/gemma-2-9b-it</title>
+    <link>https://huggingface.co/google/gemma-2-9b-it</link>
+    <guid isPermaLink="false">1a1f6bfd4d76482b</guid>
+    <pubDate>Mon, 24 Jun 2024 08:05:41 +0000</pubDate>
+    <description>transformers, safetensors, gemma2, text-generation, conversational, arxiv:2009.03300, arxiv:1905.07830, arxiv:1911.11641, arxiv:1904.09728, arxiv:1905.10044, arxiv:1907.10641, arxiv:1811.00937 (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[tooling] yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF</title>
+    <link>https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF</link>
+    <guid isPermaLink="false">e73ec529cd22d58b</guid>
+    <pubDate>Fri, 19 Jun 2026 00:06:07 +0000</pubDate>
+    <description>gguf, gemma4, coding, agentic, terminal, tool-use, reasoning, thinking, llama.cpp, local-llm, text-generation, base_model:google/gemma-4-12B-it (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[discussion] LiquidAI/LFM2.5-2.6B-GGUF</title>
+    <link>https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF</link>
+    <guid isPermaLink="false">6ef12fd977bb87b6</guid>
+    <pubDate>Sat, 01 Aug 2026 22:42:15 +0000</pubDate>
+    <description>gguf, liquid, lfm2.5, llama.cpp, text-generation, ar, zh, en, fr, de, hi, id (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[discussion] LiquidAI/LFM2.5-2.6B</title>
+    <link>https://huggingface.co/LiquidAI/LFM2.5-2.6B</link>
+    <guid isPermaLink="false">ec6518a9ee05b3c2</guid>
+    <pubDate>Tue, 28 Jul 2026 22:14:32 +0000</pubDate>
+    <description>transformers, safetensors, lfm2, text-generation, liquid, lfm2.5, edge, conversational, ar, zh, en, fr (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[discussion] poolside/Laguna-S-2.1</title>
+    <link>https://huggingface.co/poolside/Laguna-S-2.1</link>
+    <guid isPermaLink="false">4960a35db25e6d27</guid>
+    <pubDate>Mon, 13 Jul 2026 13:58:35 +0000</pubDate>
+    <description>transformers, safetensors, laguna, text-generation, laguna-s-2.1, vllm, conversational, custom_code, license:openmdw-1.1, eval-results, region:us (via HF trending, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[tooling] Stealing Reasoning Traces from Proprietary LLM APIs</title>
+    <link>https://stolen-thoughts.com/</link>
+    <guid isPermaLink="false">393245152404d642</guid>
+    <pubDate>Tue, 11 Aug 2026 13:22:00 +0000</pubDate>
+    <description>Stealing Reasoning Traces from Proprietary LLM APIs (via Hacker News, importance 9/10)</description>
+  </item>
+  <item>
+    <title>[discussion] huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF</title>
+    <link>https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF</link>
+    <guid isPermaLink="false">6dc814fb4df962a8</guid>
+    <pubDate>Sun, 02 Aug 2026 09:18:05 +0000</pubDate>
+    <description>gguf, abliterated, uncensored, GGUF, huihui, quantized, deepseek, deepseek-v4, deepseek-v4-flash-0731, moe, mixture-of-experts, 2-bit (via HF trending, importance 8/10)</description>
+  </item>
+  <item>
+    <title>[discussion] England set to be one of the first countries to eliminate hepatitis C</title>
+    <link>https://www.bbc.com/news/articles/c75gk620r22o</link>
+    <guid isPermaLink="false">477ba840696236bd</guid>
+    <pubDate>Tue, 11 Aug 2026 12:41:59 +0000</pubDate>
+    <description>England set to be one of the first countries to eliminate hepatitis C (via Hacker News, importance 8/10)</description>
+  </item>
+  <item>
+    <title>[fine-tune] Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF</title>
+    <link>https://huggingface.co/Jackrong/DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF</link>
+    <guid isPermaLink="false">551071c8e0016a98</guid>
+    <pubDate>Sat, 01 Aug 2026 01:05:11 +0000</pubDate>
+    <description>transformers, gguf, text-generation-inference, unsloth, qwen3_5, reasoning, distillation, deepseek, sft, rl, gspo, math (via HF trending, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Kwaipilot/KAT-Coder-V2.5-Dev</title>
+    <link>https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev</link>
+    <guid isPermaLink="false">7951dcb37c291467</guid>
+    <pubDate>Thu, 23 Jul 2026 09:54:08 +0000</pubDate>
+    <description>transformers, safetensors, qwen3_5_moe, image-text-to-text, code, agent, agentic-coding, moe, coding, text-generation, conversational, en (via HF trending, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4</title>
+    <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4</link>
+    <guid isPermaLink="false">91f6c042e793eee0</guid>
+    <pubDate>Tue, 04 Aug 2026 19:10:45 +0000</pubDate>
+    <description>transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de (via HF trending, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] antirez/h3.c — MiniMax H3 inference engine for Mac computers</title>
+    <link>https://github.com/antirez/h3.c</link>
+    <guid isPermaLink="false">8797c3b659bb1ecb</guid>
+    <pubDate>Sun, 09 Aug 2026 09:12:47 +0000</pubDate>
+    <description>MiniMax H3 inference engine for Mac computers (via GitHub trending, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] OpenAI’s head of ethics leaves less than a year after joining</title>
+    <link>https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0</link>
+    <guid isPermaLink="false">f8f45d5b3ebe45a7</guid>
+    <pubDate>Tue, 11 Aug 2026 12:23:07 +0000</pubDate>
+    <description>&lt;a href="https:&amp;#x2F;&amp;#x2F;archive.ph&amp;#x2F;W48UV" rel="nofollow"&gt;https:&amp;#x2F;&amp;#x2F;archive.ph&amp;#x2F;W48UV&lt;/a&gt;&lt;p&gt;&lt;a href="https:&amp;#x2F;&amp;#x2F;aimagazine.com&amp;#x2F;news&amp;#x2F;why-did-openai-head-of-ethics-ch (via Hacker News, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Go is an ideal language for AI-assisted software engineering</title>
+    <link>https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</link>
+    <guid isPermaLink="false">d5515a350fac7ead</guid>
+    <pubDate>Tue, 11 Aug 2026 16:57:09 +0000</pubDate>
+    <description>Go is an ideal language for AI-assisted software engineering (via Hacker News, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] London Underground begins scanning passengers' faces</title>
+    <link>https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/</link>
+    <guid isPermaLink="false">5b715b48ea76d2cb</guid>
+    <pubDate>Tue, 11 Aug 2026 09:40:02 +0000</pubDate>
+    <description>London Underground begins scanning passengers' faces (via Hacker News, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Compression is prediction</title>
+    <link>https://ngrok.com/blog/compression-is-prediction</link>
+    <guid isPermaLink="false">393c13f6da5ec207</guid>
+    <pubDate>Tue, 11 Aug 2026 19:49:44 +0000</pubDate>
+    <description>Compression is prediction (via Hacker News, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Mojo 1.0</title>
+    <link>https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here</link>
+    <guid isPermaLink="false">3cabc2bbd60f3176</guid>
+    <pubDate>Tue, 11 Aug 2026 16:56:46 +0000</pubDate>
+    <description>Mojo 1.0 (via Hacker News, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Nvidia's Risky Business</title>
+    <link>https://stratechery.com/2026/nvidias-risky-business/</link>
+    <guid isPermaLink="false">a4ba7633e2bec81b</guid>
+    <pubDate>Tue, 11 Aug 2026 10:02:00 +0000</pubDate>
+    <description>Nvidia's Risky Business (via Hacker News, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[discussion] AtomicChat/Ling-3.0-flash-GGUF</title>
+    <link>https://huggingface.co/AtomicChat/Ling-3.0-flash-GGUF</link>
+    <guid isPermaLink="false">de0b89b4fc559dd2</guid>
+    <pubDate>Tue, 04 Aug 2026 20:00:45 +0000</pubDate>
+    <description>llama.cpp, gguf, imatrix, moe, text-generation, base_model:inclusionAI/Ling-3.0-flash, base_model:quantized:inclusionAI/Ling-3.0-flash, license:mit, endpoints_compatible, region:us, conversational (via HF trending, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] EschaLabs/Qwen3.6-35B-A3B-Escha-W2</title>
+    <link>https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2</link>
+    <guid isPermaLink="false">b536429e7025e7ac</guid>
+    <pubDate>Wed, 22 Jul 2026 01:03:52 +0000</pubDate>
+    <description>mlx, safetensors, qwen3_5_moe, mixture-of-experts, moe, qwen3, 2-bit, quantization, eschamoe, sglang, zml, apple-silicon (via HF trending, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] deepgrove/maple-preview</title>
+    <link>https://huggingface.co/deepgrove/maple-preview</link>
+    <guid isPermaLink="false">52367276f21e9eb2</guid>
+    <pubDate>Tue, 04 Aug 2026 20:50:54 +0000</pubDate>
+    <description>transformers, safetensors, text-generation, causal-lm, mixture-of-experts, reasoning, ternary, custom-code, conversational, custom_code, en, license:mit (via HF trending, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo</title>
+    <link>https://photosynthesis.camera</link>
+    <guid isPermaLink="false">a56ecf0ead8f9818</guid>
+    <pubDate>Sat, 08 Aug 2026 22:47:10 +0000</pubDate>
+    <description>Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo (via Hacker News, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Grok Bot</title>
+    <link>https://x.ai/bot</link>
+    <guid isPermaLink="false">d45e6cc9bb3124b3</guid>
+    <pubDate>Tue, 11 Aug 2026 17:23:09 +0000</pubDate>
+    <description>Grok Bot (via Hacker News, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp</title>
+    <link>https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md</link>
+    <guid isPermaLink="false">800ebb0d7846f162</guid>
+    <pubDate>Tue, 11 Aug 2026 14:50:33 +0000</pubDate>
+    <description>Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp (via Hacker News, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[fine-tune] Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA</title>
+    <link>https://huggingface.co/papers/2608.09819</link>
+    <guid isPermaLink="false">0902187faa230c08</guid>
+    <pubDate>Sun, 09 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] BDH-CQ: In-Context Learning with Recurrent Latent Reasoning</title>
+    <link>https://huggingface.co/papers/2608.09888</link>
+    <guid isPermaLink="false">0a2ae6a04b0dcf24</guid>
+    <pubDate>Sun, 09 Aug 2026 20:00:00 +0000</pubDate>
+    <description>We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face to steal the answers to the benchmark simonwillison.net/202</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3mrbjg3u5tk2z</link>
+    <guid isPermaLink="false">e2adfd20b4b76af6</guid>
+    <pubDate>Wed, 22 Jul 2026 23:53:20 +0000</pubDate>
+    <description>I wrote about the completely wild incident where OpenAI were testing a new model and it broke out of its sandbox and broke INTO Hugging Face to steal the answers to the benchmark simonwillison.net/202 (via @simonwillison.net, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] This demo of structured data extraction running on an LLM that executes entirely in the browser (Chrome only for the moment since it uses WebGPU) is amazing
+
+My notes here: simonwillison.net/2024/Nov/</title>
+    <link>https://bsky.app/profile/reach-vb.hf.co/post/3lc4ik574b22s</link>
+    <guid isPermaLink="false">8f6a1e92050d2ea6</guid>
+    <pubDate>Fri, 29 Nov 2024 21:10:17 +0000</pubDate>
+    <description>This demo of structured data extraction running on an LLM that executes entirely in the browser (Chrome only for the moment since it uses WebGPU) is amazing
+
+My notes here: simonwillison.net/2024/Nov/ (via @reach-vb.hf.co, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[tooling] My notes on Kimi K3, plus some thoughts on what we can still learn from the pelican benchmark even while it becomes further detached from how good the models are at the things that matter (like agenti</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3mqs2y7gutk2a</link>
+    <guid isPermaLink="false">24e26f3e0b7e72d8</guid>
+    <pubDate>Thu, 16 Jul 2026 20:25:06 +0000</pubDate>
+    <description>My notes on Kimi K3, plus some thoughts on what we can still learn from the pelican benchmark even while it becomes further detached from how good the models are at the things that matter (like agenti (via @simonwillison.net, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16</title>
+    <link>https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16</link>
+    <guid isPermaLink="false">52efa5eb21ba7229</guid>
+    <pubDate>Sat, 01 Aug 2026 06:55:21 +0000</pubDate>
+    <description>transformers, safetensors, nemotron_h, text-generation, nvidia, pytorch, nemotron-3.5, conversational, en, es, fr, de (via HF trending, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[discussion] inclusionAI/Ling-3.0-flash</title>
+    <link>https://huggingface.co/inclusionAI/Ling-3.0-flash</link>
+    <guid isPermaLink="false">b6d110c33116df37</guid>
+    <pubDate>Sun, 02 Aug 2026 16:14:41 +0000</pubDate>
+    <description>safetensors, bailing_hybrid, text-generation, conversational, custom_code, license:mit, eval-results, region:us (via HF trending, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[tooling] badtheorylabs/BTL-4</title>
+    <link>https://huggingface.co/badtheorylabs/BTL-4</link>
+    <guid isPermaLink="false">fed410bd69f8439b</guid>
+    <pubDate>Wed, 05 Aug 2026 19:56:05 +0000</pubDate>
+    <description>transformers, safetensors, qwen3_5_moe, image-text-to-text, agentic, tool-use, code, reasoning, text-generation, conversational, license:apache-2.0, endpoints_compatible (via HF trending, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[discussion] Akahsizrr/fuse-1-Lite</title>
+    <link>https://huggingface.co/Akahsizrr/fuse-1-Lite</link>
+    <guid isPermaLink="false">953b7db522ba839f</guid>
+    <pubDate>Wed, 05 Aug 2026 14:51:09 +0000</pubDate>
+    <description>transformers, safetensors, fuse3, text-generation, mixture-of-experts, MoE, coding, python, code-generation, LFM2, Qwen, LiquidAI (via HF trending, importance 5/10)</description>
+  </item>
+</channel>
+</rss>
