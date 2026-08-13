@@ -4,7 +4,7 @@
   <title>SQP AI News Tracker</title>
   <link>https://dandi02.github.io/ai-news-tracker/</link>
   <description>Daily curated open-source LLM news for SQP developers</description>
-  <lastBuildDate>Thu, 13 Aug 2026 03:56:03 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 06:47:29 +0000</lastBuildDate>
   <item>
     <title>[new-model-release] deepseek-ai/DeepSeek-V4-Pro</title>
     <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro</link>
@@ -88,6 +88,27 @@
     <guid isPermaLink="false">96b2284ecdf3b55b</guid>
     <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
     <description>LeRobot v0.5.0 scales robotics learning framework across data, model, and compute dimensions. Major release of open-source robotics + LLM toolkit. (via Hugging Face Blog, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[research] OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution</title>
+    <link>https://huggingface.co/papers/2608.00677</link>
+    <guid isPermaLink="false">d57eeb22ecc10186</guid>
+    <pubDate>Fri, 31 Jul 2026 20:00:00 +0000</pubDate>
+    <description>Paper on red-teaming AI agents in persistent environments with state evolution. Relevant for understanding agent robustness and safety. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] The Wording Effect: Quantifying Two-Way Drift in LLM Benchmark Performance</title>
+    <link>https://arxiv.org/abs/2608.11694</link>
+    <guid isPermaLink="false">b2a3dd4e4319f135</guid>
+    <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research on wording effects and benchmark drift in LLM evaluation showing rephrasing changes scores significantly. Important for benchmark reliability. (via arXiv cs.CL, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[discussion] I ran DeepSeek V4 Flash 284B + DSpark on one RTX PRO 6000. The drafter was faster in RAM than VRAM.</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmt1y3/i_ran_deepseek_v4_flash_284b_dspark_on_one_rtx/</link>
+    <guid isPermaLink="false">9c61fdc3e968ab4d</guid>
+    <pubDate>Wed, 12 Aug 2026 22:41:23 +0000</pubDate>
+    <description>Benchmark showing DeepSeek V4 Flash 284B with DSpark speculative decoding runs faster in RAM than VRAM on RTX PRO 6000. Practical inference optimization. (via r/LocalLLaMA, importance 6/10)</description>
   </item>
   <item>
     <title>[new-model-release] CohereLabs/North-Micro-Vision-Instruct · Hugging Face</title>
@@ -216,74 +237,53 @@
     <description>Methods for deploying robotic vision-language models to embedded platforms with dataset recording and optimization. Practical guide for edge robotics deployment. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Hidden Reasoning from Claude and GPT are Decoded, and it is interesting</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmawd2/hidden_reasoning_from_claude_and_gpt_are_decoded/</link>
-    <guid isPermaLink="false">3da928a59412896f</guid>
-    <pubDate>Wed, 12 Aug 2026 10:59:31 +0000</pubDate>
-    <description>Research paper showing a method to extract hidden reasoning tokens from Claude and GPT APIs, with published examples. Relevant for understanding closed-model reasoning patterns and implications for open-source model development. (via r/LocalLLaMA, importance 5/10)</description>
+    <title>[tooling] vuphongle/oss-pr-reviewer — AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.</title>
+    <link>https://github.com/vuphongle/oss-pr-reviewer</link>
+    <guid isPermaLink="false">44a40876c3d1599d</guid>
+    <pubDate>Thu, 13 Aug 2026 01:59:03 +0000</pubDate>
+    <description>oss-pr-reviewer is an LLM-powered CLI tool for automated GitHub PR review with bug and security risk detection. Useful tooling for development workflows. (via GitHub trending, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] Gemma 4 QAT handles KV cache quantization MUCH better, KLD benchmarks show</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmhc4h/gemma_4_qat_handles_kv_cache_quantization_much/</link>
-    <guid isPermaLink="false">58520bfdce82c322</guid>
-    <pubDate>Wed, 12 Aug 2026 15:28:03 +0000</pubDate>
-    <description>Benchmark results showing QAT improves KV cache quantization significantly better than non-QAT on Gemma 4 31B using llama.cpp variants. Relevant for inference optimization techniques. (via r/LocalLLaMA, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[discussion] According to AMD, Arm, and Microsoft, agentic AI could push CPU-to-GPU ratios from 1:4 to even1:1</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vm9w5x/according_to_amd_arm_and_microsoft_agentic_ai/</link>
-    <guid isPermaLink="false">9273d94d3b0d8a08</guid>
-    <pubDate>Wed, 12 Aug 2026 10:05:45 +0000</pubDate>
-    <description>AMD, Arm, and Microsoft note that agentic AI workloads could shift CPU-to-GPU ratios from 1:4 toward 1:1-1:2 due to orchestration and tool-calling overhead. Relevant infrastructure insight for production LLM deployment. (via r/LocalLLaMA, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[tooling] Intel LLM-Scaler ready with Muse Glimmer support, other LLMs &amp; features</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmaofu/intel_llmscaler_ready_with_muse_glimmer_support/</link>
-    <guid isPermaLink="false">bea37135f97c2bda</guid>
-    <pubDate>Wed, 12 Aug 2026 10:47:44 +0000</pubDate>
-    <description>Intel LLM-Scaler tool is ready with Muse Glimmer support and other LLM optimizations. Inference tooling relevant for local deployment. (via r/LocalLLaMA, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[fine-tune] pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap50-3bit</title>
-    <link>https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap50-3bit</link>
-    <guid isPermaLink="false">d7fc6f2bc77465fa</guid>
-    <pubDate>Thu, 13 Aug 2026 01:41:17 +0000</pubDate>
-    <description>Qwen3.8-2.4T-A95B MLX quantization (3-bit, pruned to 50% sparsity) optimized for Apple Silicon. Relevant for efficient edge deployment of large models. (via HF new models, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[fine-tune] pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit</title>
-    <link>https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit</link>
-    <guid isPermaLink="false">0d9fa10cca410e5c</guid>
-    <pubDate>Thu, 13 Aug 2026 01:00:24 +0000</pubDate>
-    <description>Qwen3.8 2.4T model quantized to 4-bit for Apple Silicon (MLX) with pruning. Enables efficient local inference on M-series hardware. (via HF new models, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[fine-tune] prism-ml/Ternary-Bonsai-27B-gguf</title>
-    <link>https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf</link>
-    <guid isPermaLink="false">1d9a41045a3fea66</guid>
-    <pubDate>Sat, 04 Jul 2026 00:24:01 +0000</pubDate>
-    <description>Ternary-Bonsai-27B-GGUF released as a highly quantized 2-bit model with 839K downloads. Demonstrates extreme quantization techniques for on-device inference via llama.cpp. (via HF trending, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[fine-tune] unsloth/Qwen3.8-2.4T-A95B-GGUF</title>
-    <link>https://huggingface.co/unsloth/Qwen3.8-2.4T-A95B-GGUF</link>
-    <guid isPermaLink="false">7f84e82c089d4131</guid>
-    <pubDate>Mon, 10 Aug 2026 16:41:01 +0000</pubDate>
-    <description>unsloth/Qwen3.8-2.4T-A95B-GGUF GGUF quantization of Qwen3.8. Enables efficient local inference via llama.cpp-compatible format. (via HF trending, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[tooling] nathanrs/detllm — Fully deterministic cross-device LLMs inference</title>
-    <link>https://github.com/nathanrs/detllm</link>
-    <guid isPermaLink="false">769e8a0be8d2b907</guid>
-    <pubDate>Sat, 08 Aug 2026 18:34:17 +0000</pubDate>
-    <description>detllm provides fully deterministic cross-device LLM inference. Useful tooling for reproducible inference in production. (via GitHub trending, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses</title>
-    <link>https://huggingface.co/papers/2608.12307</link>
-    <guid isPermaLink="false">74f2a0cdb77dc21a</guid>
+    <title>[research] Persistent Recursive Worlds Enable Autonomous Software Evolution</title>
+    <link>https://huggingface.co/papers/2608.10450</link>
+    <guid isPermaLink="false">824278f5ea0ae883</guid>
     <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Research on test-time capability transfer between models via harnesses. Relevant for understanding distillation and model compression techniques. (via HF daily papers, importance 5/10)</description>
+    <description>EvoX Genesis framework for persistent agentic software evolution with iterative learning cycles. Research on agent systems and continuous improvement. (via HF daily papers, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[research] Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs</title>
+    <link>https://arxiv.org/abs/2608.11232</link>
+    <guid isPermaLink="false">252c2f9c230875ec</guid>
+    <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Backtrader-Bench provides a framework for evaluating LLM coding agents on algorithmic trading with self-generated benchmarks. Useful benchmark for agent evaluation. (via arXiv cs.CL, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[research] Retrofitting Recurrent Depth into a Pretrained Language Model: Installation, Extrapolation, Transfer, and Retention at Two Parameter Budgets</title>
+    <link>https://arxiv.org/abs/2608.11233</link>
+    <guid isPermaLink="false">08dae9a3dad8cdc0</guid>
+    <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Paper on retrofitting Qwen2.5-0.5B with recurrent depth to improve iterative reasoning while maintaining parameter budget. Relevant efficiency research. (via arXiv cs.CL, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[research] TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation</title>
+    <link>https://arxiv.org/abs/2608.11236</link>
+    <guid isPermaLink="false">e8a7c8cfbba2578d</guid>
+    <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    <description>TRACE Bench introduces task-driven agentic checklist evaluation for roleplay scenarios with structured feedback. Useful evaluation methodology for agents. (via arXiv cs.CL, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[research] Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction</title>
+    <link>https://arxiv.org/abs/2608.11242</link>
+    <guid isPermaLink="false">c36c2f41b1785a16</guid>
+    <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research on session constraint preservation during context compaction in LLMs. Addresses practical production challenge. (via arXiv cs.CL, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[research] Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost</title>
+    <link>https://arxiv.org/abs/2608.11338</link>
+    <guid isPermaLink="false">875fa8ee514f8e47</guid>
+    <pubDate>Thu, 13 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research comparing cost-effective skill learning approaches for LLM agents across domains. Practical guidance on agent adaptation. (via arXiv cs.CL, importance 5/10)</description>
   </item>
 </channel>
 </rss>
