@@ -274,6 +274,27 @@
     await loadCuration();
   }
 
+  // ---------- page link hub (visible without a token) ----------
+  function renderPageLinks() {
+    const base = location.href.replace(/admin\.html.*$/, "");
+    const repoGuess = localStorage.getItem(LS_REPO) || detectRepo();
+    const links = [
+      ["News feed — share this with the team", base],
+      ["RSS feed — for feed readers (Feedly etc.)", base + "feed.xml"],
+      ["Admin console — this page", base + "admin.html"],
+    ];
+    if (repoGuess) {
+      links.push(
+        ["Code & settings — the GitHub repository", `https://github.com/${repoGuess}`],
+        ["Run history & logs — see every daily build", `https://github.com/${repoGuess}/actions`],
+        ["Edit sources directly on GitHub — no token needed", `https://github.com/${repoGuess}/edit/main/config/sources.yaml`],
+      );
+    }
+    document.getElementById("links-list").innerHTML = links.map(([label, url]) =>
+      `<li><strong>${esc(label)}</strong><br><a href="${esc(url)}">${esc(url)}</a></li>`).join("");
+  }
+  renderPageLinks();
+
   // tabs
   document.querySelectorAll(".tab-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
