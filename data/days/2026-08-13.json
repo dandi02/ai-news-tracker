@@ -1,14 +1,14 @@
 {
  "date": "2026-08-13",
- "generated_at": "2026-08-13T03:45:05.635553+00:00",
+ "generated_at": "2026-08-13T03:56:03.472013+00:00",
  "sources_status": {
   "rss": {
    "ok": true,
-   "count": 929
+   "count": 0
   },
   "youtube": {
    "ok": true,
-   "count": 8
+   "count": 0
   },
   "hackernews": {
    "ok": true,
@@ -16,11 +16,11 @@
   },
   "reddit": {
    "ok": true,
-   "count": 29
+   "count": 25
   },
   "github_releases": {
    "ok": true,
-   "count": 27
+   "count": 8
   },
   "github_repos": {
    "ok": true,
@@ -316,6 +316,48 @@
    "importance": 7,
    "category": "tooling",
    "group_key": "lerobot-0-5-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "da321095e82b1910",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "CohereLabs/North-Micro-Vision-Instruct · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmjmna/coherelabsnorthmicrovisioninstruct_hugging_face/",
+   "created_at": "2026-08-12T16:50:24+00:00",
+   "external_url": "",
+   "author": "/u/pmttyji",
+   "snippet": "North Micro Vision Instruct is a 2.4B-parameter open-weight vision-language model with native-resolution image support, released under the Apache 2.0 license. It is designed as a compact foundation for prototyping, task-specific fine-tuning, and specialized multimodal applications.   Highlights     Native-resolution image processing that preserves aspect ratios and fine visual detail.   Broad imag",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "CohereLabs released North Micro Vision Instruct, a 2.4B open-weight vision-language model with native-resolution support under Apache 2.0. Compact multimodal foundation suitable for fine-tuning and edge deployment.",
+   "importance": 6,
+   "category": "new-model-release",
+   "group_key": "north-micro-vision-instruct",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "d3f228cda283a9d2",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "LFM2.5-VL-3B recognizes Steve from Minecraft running locally on an iPhone 17",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmp9gj/lfm25vl3b_recognizes_steve_from_minecraft_running/",
+   "created_at": "2026-08-12T20:13:27+00:00",
+   "external_url": "",
+   "author": "/u/Fun-Meaning-6474",
+   "snippet": "Liquid AI put out LFM2.5-VL-3B today, which is a 3.1B vision model that weighs roughly 2GB and fits well on a phone   Benchmarks are benchmarks so I tried something sillier. Took a photo of a little Steve toy I have, gave it to the model and asked it what it was looking at   It ended up thinking for around 2 minutes and 31 seconds on an iPhone 17, which is a bit too lengthy, but it did end up reco",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Liquid AI released LFM2.5-VL-3B, a 3.1B vision model (~2GB) that runs on iPhone 17, demonstrating practical edge deployment of small vision-language models.",
+   "importance": 6,
+   "category": "new-model-release",
+   "group_key": "lfm25-vl-3b",
    "curated": true,
    "pinned": false,
    "tags": []
@@ -660,6 +702,138 @@
    "importance": 6,
    "category": "tooling",
    "group_key": "robotics-embedded-optimization",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "3da928a59412896f",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "Hidden Reasoning from Claude and GPT are Decoded, and it is interesting",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmawd2/hidden_reasoning_from_claude_and_gpt_are_decoded/",
+   "created_at": "2026-08-12T10:59:31+00:00",
+   "external_url": "",
+   "author": "/u/Zealousideal_Sort74",
+   "snippet": "Yesteday a paper showed a gap that allows to see 100% of the reasoning tokens form ALL Claude and GPT models  Stealing Reasoning Traces from Proprietary LLM APIs .    check it out, they have published lots of example reasonings.  this is very relevant for open soruce; for the following reason   - there is hint for benchmaxing; given a question form the benchmark AIME, Claude reasoning showed it KN",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Research paper showing a method to extract hidden reasoning tokens from Claude and GPT APIs, with published examples. Relevant for understanding closed-model reasoning patterns and implications for open-source model development.",
+   "importance": 5,
+   "category": "research",
+   "group_key": "reasoning-extraction-research",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "58520bfdce82c322",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "Gemma 4 QAT handles KV cache quantization MUCH better, KLD benchmarks show",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmhc4h/gemma_4_qat_handles_kv_cache_quantization_much/",
+   "created_at": "2026-08-12T15:28:03+00:00",
+   "external_url": "",
+   "author": "/u/Anbeeld",
+   "snippet": "Link to the article:   KV Cache Quantization on Gemma 4 31B: Non-QAT vs QAT    KLD benchmarks with  BeeLlama.cpp v0.4.3 , fork of llama.cpp with more KV cache quantization options, comparing Gemma Q4_0 non-QAT vs Gemma Q4_0 QAT. Long story short: QAT is much more friendly to KV cache quantization, moving same-top agreement from &quot;different model&quot; to &quot;that looks like Gemma 4?&quot;   ",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Benchmark results showing QAT improves KV cache quantization significantly better than non-QAT on Gemma 4 31B using llama.cpp variants. Relevant for inference optimization techniques.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "gemma4-qat-kv-cache",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "9273d94d3b0d8a08",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "According to AMD, Arm, and Microsoft, agentic AI could push CPU-to-GPU ratios from 1:4 to even1:1",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vm9w5x/according_to_amd_arm_and_microsoft_agentic_ai/",
+   "created_at": "2026-08-12T10:05:45+00:00",
+   "external_url": "",
+   "author": "/u/ocean_protocol",
+   "snippet": "In OCP APAC 2026, Tai AMD SVP of compute and enterprise AI said agents don't cut GPU demand but they just pile on a whole extra layer of orchestration, retrieval, and tool-calling work that runs on CPUs instead   And the usual 1:4 CPU-to-GPU ratio could move toward 1:2 or even 1:1 and also Arm gave the reasoning of why as their Taiwan/SEA president said AI agents can fire off 15x more requests tha",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "AMD, Arm, and Microsoft note that agentic AI workloads could shift CPU-to-GPU ratios from 1:4 toward 1:1-1:2 due to orchestration and tool-calling overhead. Relevant infrastructure insight for production LLM deployment.",
+   "importance": 5,
+   "category": "discussion",
+   "group_key": "agentic-ai-cpu-gpu-ratios",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "bea37135f97c2bda",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "Intel LLM-Scaler ready with Muse Glimmer support, other LLMs & features",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vmaofu/intel_llmscaler_ready_with_muse_glimmer_support/",
+   "created_at": "2026-08-12T10:47:44+00:00",
+   "external_url": "",
+   "author": "/u/Fcking_Chuck",
+   "snippet": "&#32; submitted by &#32;   /u/Fcking_Chuck       [link]   &#32;   [comments]",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Intel LLM-Scaler tool is ready with Muse Glimmer support and other LLM optimizations. Inference tooling relevant for local deployment.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "intel-llm-scaler",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "d7fc6f2bc77465fa",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap50-3bit",
+   "url": "https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap50-3bit",
+   "created_at": "2026-08-13T01:41:17.000Z",
+   "external_url": "",
+   "author": "pipenetwork",
+   "snippet": "mlx, safetensors, qwen3_5_moe_text, apple-silicon, moe, 3-bit, reap, pruned, text-generation, conversational, base_model:Qwen/Qwen3.8-2.4T-A95B, base_model:quantized:Qwen/Qwen3.8-2.4T-A95B",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Qwen3.8-2.4T-A95B MLX quantization (3-bit, pruned to 50% sparsity) optimized for Apple Silicon. Relevant for efficient edge deployment of large models.",
+   "importance": 5,
+   "category": "fine-tune",
+   "group_key": "qwen38-mlx-quant",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "0d9fa10cca410e5c",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit",
+   "url": "https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit",
+   "created_at": "2026-08-13T01:00:24.000Z",
+   "external_url": "",
+   "author": "pipenetwork",
+   "snippet": "mlx, safetensors, qwen3_5_moe_text, apple-silicon, moe, 4-bit, reap, pruned, text-generation, conversational, base_model:Qwen/Qwen3.8-2.4T-A95B, base_model:quantized:Qwen/Qwen3.8-2.4T-A95B",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Qwen3.8 2.4T model quantized to 4-bit for Apple Silicon (MLX) with pruning. Enables efficient local inference on M-series hardware.",
+   "importance": 5,
+   "category": "fine-tune",
+   "group_key": "qwen3-quantization-variants",
    "curated": true,
    "pinned": false,
    "tags": []
@@ -1634,6 +1808,160 @@
    "tags": []
   },
   {
+   "id": "3e30edd0c07ad437",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "simonlqy/SkillGate-9B",
+   "url": "https://huggingface.co/simonlqy/SkillGate-9B",
+   "created_at": "2026-08-13T03:32:09.000Z",
+   "external_url": "",
+   "author": "simonlqy",
+   "snippet": "transformers, safetensors, qwen3_5, image-text-to-text, agent, tool-use, skill-selection, reinforcement-learning, grpo, text-generation, conversational, base_model:Qwen/Qwen3.5-9B",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "SkillGate-9B is a Qwen3.5-9B fine-tune using reinforcement learning (GRPO) for tool-use and skill selection. Demonstrates open-weight agentic model optimization techniques.",
+   "importance": 4,
+   "category": "fine-tune",
+   "group_key": "skillgate-tool-use",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "44a224c0b234cb19",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "startlux-models/gdn-1.3b-isp-hybrid-3to1-50b",
+   "url": "https://huggingface.co/startlux-models/gdn-1.3b-isp-hybrid-3to1-50b",
+   "created_at": "2026-08-13T02:02:37.000Z",
+   "external_url": "",
+   "author": "startlux-models",
+   "snippet": "transformers, safetensors, gated_deltanet, text-generation, fla, gated-deltanet, hybrid-linear-attention, linear-attention, massive-activations, license:apache-2.0, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-gatedfa-340m-isp-hybrid-3to1-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-nooutgate-340m-isp-hybrid-3to1-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-340m-isp-hybrid-3to1-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-1.3b-pas-fa-layer12-50b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-gatedfa-340m-pas-fa-layer12-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-nooutgate-340m-pas-fa-layer12-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-340m-pas-fa-layer20-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-340m-pas-fa-layer12-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/startlux-models/gdn-340m-pas-fa-layer04-10b",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    }
+   ],
+   "keep": true,
+   "summary": "GDN-1.3B, a gated-deltanet hybrid linear-attention model with experimental efficient attention mechanisms. Relevant for exploring alternative efficient architectures in open-weight models.",
+   "importance": 4,
+   "category": "new-model-release",
+   "group_key": "gated-deltanet-models",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "38b8980227e3210d",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "YeahItsHunter/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-exl3-6bpw",
+   "url": "https://huggingface.co/YeahItsHunter/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-exl3-6bpw",
+   "created_at": "2026-08-13T00:49:52.000Z",
+   "external_url": "",
+   "author": "YeahItsHunter",
+   "snippet": "exllamav3, safetensors, nemotron_h, nvidia, nemotron-3.5, exl3, quantized, mixture-of-experts, mamba, 6bpw, text-generation, conversational",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/YeahItsHunter/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-exl3-4bpw",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    }
+   ],
+   "keep": true,
+   "summary": "NVIDIA Nemotron-3.5-Lightning-30B quantized to 6-bit-per-weight (ExLlamaV3). Production-ready dense quant for inference efficiency.",
+   "importance": 4,
+   "category": "fine-tune",
+   "group_key": "nemotron-quantization-variants",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
    "id": "14ba20b4c40281fb",
    "source_type": "hackernews",
    "source_name": "Hacker News",
@@ -2257,6 +2585,30 @@
    "tags": []
   },
   {
+   "id": "09264b731f1192e8",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "Pradheep1647/q0-gsm8k-1_5b-mopd",
+   "url": "https://huggingface.co/Pradheep1647/q0-gsm8k-1_5b-mopd",
+   "created_at": "2026-08-13T01:22:21.000Z",
+   "external_url": "",
+   "author": "Pradheep1647",
+   "snippet": "transformers, safetensors, qwen2, text-generation, gsm8k, distillation, mopd, q0, conversational, base_model:Qwen/Qwen2.5-1.5B-Instruct, base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct, text-generation-inference",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Qwen2.5-1.5B fine-tune optimized for math reasoning (GSM8K) using distillation and MOPD techniques. Useful reference for efficient math-focused model adaptation.",
+   "importance": 3,
+   "category": "fine-tune",
+   "group_key": "qwen25-finetuned-variants",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
    "id": "706661f752ae78c6",
    "source_type": "hf_model",
    "source_name": "HF new models",
@@ -2318,6 +2670,54 @@
    "importance": 3,
    "category": "discussion",
    "group_key": "local-models-triage",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "a05a51a91b77348d",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "Dido599999/MD1-Gemma-2-9b",
+   "url": "https://huggingface.co/Dido599999/MD1-Gemma-2-9b",
+   "created_at": "2026-08-13T01:14:06.000Z",
+   "external_url": "",
+   "author": "Dido599999",
+   "snippet": "transformers, safetensors, gemma2, text-generation, conversational, arxiv:2009.03300, arxiv:1905.07830, arxiv:1911.11641, arxiv:1904.09728, arxiv:1905.10044, arxiv:1907.10641, arxiv:1811.00937",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Gemma-2-9B fine-tune with multi-document reasoning approach (MD1). Single-model variant in a niche category with moderate relevance.",
+   "importance": 2,
+   "category": "fine-tune",
+   "group_key": "gemma2-finetuned-variants",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "b70043f2c8e1311c",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "kyleliu789/qwen3-14b-svamp-dpo-qlora-all-caps-1e-5",
+   "url": "https://huggingface.co/kyleliu789/qwen3-14b-svamp-dpo-qlora-all-caps-1e-5",
+   "created_at": "2026-08-13T00:52:42.000Z",
+   "external_url": "",
+   "author": "kyleliu789",
+   "snippet": "peft, tensorboard, safetensors, base_model:adapter:Qwen/Qwen3-14B, llama-factory, lora, transformers, text-generation, conversational, base_model:Qwen/Qwen3-14B, license:other, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Qwen3-14B LoRA adapter fine-tuned on math problem-solving (SVAMP) using DPO. Community-contributed parameter-efficient tuning.",
+   "importance": 2,
+   "category": "fine-tune",
+   "group_key": "qwen3-finetuned-variants",
    "curated": true,
    "pinned": false,
    "tags": []

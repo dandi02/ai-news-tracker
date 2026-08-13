@@ -4,7 +4,7 @@
   <title>SQP AI News Tracker</title>
   <link>https://dandi02.github.io/ai-news-tracker/</link>
   <description>Daily curated open-source LLM news for SQP developers</description>
-  <lastBuildDate>Thu, 13 Aug 2026 03:45:05 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 03:56:03 +0000</lastBuildDate>
   <item>
     <title>[new-model-release] deepseek-ai/DeepSeek-V4-Pro</title>
     <link>https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro</link>
@@ -88,6 +88,20 @@
     <guid isPermaLink="false">96b2284ecdf3b55b</guid>
     <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
     <description>LeRobot v0.5.0 scales robotics learning framework across data, model, and compute dimensions. Major release of open-source robotics + LLM toolkit. (via Hugging Face Blog, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[new-model-release] CohereLabs/North-Micro-Vision-Instruct · Hugging Face</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmjmna/coherelabsnorthmicrovisioninstruct_hugging_face/</link>
+    <guid isPermaLink="false">da321095e82b1910</guid>
+    <pubDate>Wed, 12 Aug 2026 16:50:24 +0000</pubDate>
+    <description>CohereLabs released North Micro Vision Instruct, a 2.4B open-weight vision-language model with native-resolution support under Apache 2.0. Compact multimodal foundation suitable for fine-tuning and edge deployment. (via r/LocalLLaMA, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[new-model-release] LFM2.5-VL-3B recognizes Steve from Minecraft running locally on an iPhone 17</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmp9gj/lfm25vl3b_recognizes_steve_from_minecraft_running/</link>
+    <guid isPermaLink="false">d3f228cda283a9d2</guid>
+    <pubDate>Wed, 12 Aug 2026 20:13:27 +0000</pubDate>
+    <description>Liquid AI released LFM2.5-VL-3B, a 3.1B vision model (~2GB) that runs on iPhone 17, demonstrating practical edge deployment of small vision-language models. (via r/LocalLLaMA, importance 6/10)</description>
   </item>
   <item>
     <title>[research] Agent Safety Should Be a Runtime Contract</title>
@@ -202,6 +216,48 @@
     <description>Methods for deploying robotic vision-language models to embedded platforms with dataset recording and optimization. Practical guide for edge robotics deployment. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
+    <title>[research] Hidden Reasoning from Claude and GPT are Decoded, and it is interesting</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmawd2/hidden_reasoning_from_claude_and_gpt_are_decoded/</link>
+    <guid isPermaLink="false">3da928a59412896f</guid>
+    <pubDate>Wed, 12 Aug 2026 10:59:31 +0000</pubDate>
+    <description>Research paper showing a method to extract hidden reasoning tokens from Claude and GPT APIs, with published examples. Relevant for understanding closed-model reasoning patterns and implications for open-source model development. (via r/LocalLLaMA, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[tooling] Gemma 4 QAT handles KV cache quantization MUCH better, KLD benchmarks show</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmhc4h/gemma_4_qat_handles_kv_cache_quantization_much/</link>
+    <guid isPermaLink="false">58520bfdce82c322</guid>
+    <pubDate>Wed, 12 Aug 2026 15:28:03 +0000</pubDate>
+    <description>Benchmark results showing QAT improves KV cache quantization significantly better than non-QAT on Gemma 4 31B using llama.cpp variants. Relevant for inference optimization techniques. (via r/LocalLLaMA, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[discussion] According to AMD, Arm, and Microsoft, agentic AI could push CPU-to-GPU ratios from 1:4 to even1:1</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vm9w5x/according_to_amd_arm_and_microsoft_agentic_ai/</link>
+    <guid isPermaLink="false">9273d94d3b0d8a08</guid>
+    <pubDate>Wed, 12 Aug 2026 10:05:45 +0000</pubDate>
+    <description>AMD, Arm, and Microsoft note that agentic AI workloads could shift CPU-to-GPU ratios from 1:4 toward 1:1-1:2 due to orchestration and tool-calling overhead. Relevant infrastructure insight for production LLM deployment. (via r/LocalLLaMA, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[tooling] Intel LLM-Scaler ready with Muse Glimmer support, other LLMs &amp; features</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vmaofu/intel_llmscaler_ready_with_muse_glimmer_support/</link>
+    <guid isPermaLink="false">bea37135f97c2bda</guid>
+    <pubDate>Wed, 12 Aug 2026 10:47:44 +0000</pubDate>
+    <description>Intel LLM-Scaler tool is ready with Muse Glimmer support and other LLM optimizations. Inference tooling relevant for local deployment. (via r/LocalLLaMA, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[fine-tune] pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap50-3bit</title>
+    <link>https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap50-3bit</link>
+    <guid isPermaLink="false">d7fc6f2bc77465fa</guid>
+    <pubDate>Thu, 13 Aug 2026 01:41:17 +0000</pubDate>
+    <description>Qwen3.8-2.4T-A95B MLX quantization (3-bit, pruned to 50% sparsity) optimized for Apple Silicon. Relevant for efficient edge deployment of large models. (via HF new models, importance 5/10)</description>
+  </item>
+  <item>
+    <title>[fine-tune] pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit</title>
+    <link>https://huggingface.co/pipenetwork/Qwen3.8-2.4T-A95B-MLX-reap75-4bit</link>
+    <guid isPermaLink="false">0d9fa10cca410e5c</guid>
+    <pubDate>Thu, 13 Aug 2026 01:00:24 +0000</pubDate>
+    <description>Qwen3.8 2.4T model quantized to 4-bit for Apple Silicon (MLX) with pruning. Enables efficient local inference on M-series hardware. (via HF new models, importance 5/10)</description>
+  </item>
+  <item>
     <title>[fine-tune] prism-ml/Ternary-Bonsai-27B-gguf</title>
     <link>https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf</link>
     <guid isPermaLink="false">1d9a41045a3fea66</guid>
@@ -228,62 +284,6 @@
     <guid isPermaLink="false">74f2a0cdb77dc21a</guid>
     <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
     <description>Research on test-time capability transfer between models via harnesses. Relevant for understanding distillation and model compression techniques. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution</title>
-    <link>https://huggingface.co/papers/2608.07645</link>
-    <guid isPermaLink="false">b018199c5409a962</guid>
-    <pubDate>Thu, 06 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Research on self-improving coding agents via comparative evolution. Advances agent architecture for autonomous code generation. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness</title>
-    <link>https://huggingface.co/papers/2608.09900</link>
-    <guid isPermaLink="false">fde75eb9a2ab8e0e</guid>
-    <pubDate>Sun, 09 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Research on LLM robustness under stress conditions with safety guardrails. Evaluation methodology for production-grade safety. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents</title>
-    <link>https://huggingface.co/papers/2608.08389</link>
-    <guid isPermaLink="false">c728af8d8779ab95</guid>
-    <pubDate>Sat, 08 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Research on marginal value estimation to reduce token cost in long-horizon agents. Efficiency optimization for agentic inference. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents</title>
-    <link>https://huggingface.co/papers/2608.11878</link>
-    <guid isPermaLink="false">e45eba9f1cc3422e</guid>
-    <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
-    <description>ToolHazard benchmark for adversarial security evaluation of LLM agents with tools. Framework for tool-use vulnerability assessment. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG</title>
-    <link>https://huggingface.co/papers/2608.07458</link>
-    <guid isPermaLink="false">30a6e223861b6465</guid>
-    <pubDate>Thu, 06 Aug 2026 20:00:00 +0000</pubDate>
-    <description>CoinRAG optimizes KV cache reuse in retrieval-augmented generation. Efficiency technique for long-context RAG systems. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images</title>
-    <link>https://huggingface.co/papers/2608.06270</link>
-    <guid isPermaLink="false">f47cae4c0e039681</guid>
-    <pubDate>Wed, 05 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Research auditing visual tool-use in multimodal LLMs. Analysis of when image cropping actually improves model performance. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs</title>
-    <link>https://huggingface.co/papers/2608.08107</link>
-    <guid isPermaLink="false">8d98e32dc79c87ca</guid>
-    <pubDate>Fri, 07 Aug 2026 20:00:00 +0000</pubDate>
-    <description>NeuPAT addresses language degradation during multimodal MLLM expansion. Technique for preserving language capabilities in vision-language models. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[new-model-release] LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge</title>
-    <link>https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b</link>
-    <guid isPermaLink="false">ab799e9da743babb</guid>
-    <pubDate>Wed, 12 Aug 2026 14:00:51 +0000</pubDate>
-    <description>LFM2.5-VL-3B is a lightweight vision-language model for edge deployment. Efficient multimodal model for resource-constrained devices. (via Hugging Face Blog, importance 5/10)</description>
   </item>
 </channel>
 </rss>
