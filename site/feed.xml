@@ -4,286 +4,286 @@
   <title>SQP AI News Tracker</title>
   <link>https://dandi02.github.io/ai-news-tracker/</link>
   <description>Daily curated open-source LLM news for SQP developers</description>
-  <lastBuildDate>Sun, 16 Aug 2026 05:45:46 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 05:53:33 +0000</lastBuildDate>
   <item>
-    <title>[new-model-release] Introducing Muse Glimmer</title>
-    <link>https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/</link>
-    <guid isPermaLink="false">2f46c475cd9d5b22</guid>
-    <pubDate>Mon, 10 Aug 2026 23:56:03 +0000</pubDate>
-    <description>Meta releases Muse Glimmer 30B open-weight model under Apache 2.0 license, optimized for local inference. New model release. (via Simon Willison, importance 7/10)</description>
+    <title>[new-model-release] Jais 2: A Family of Arabic-Centric Open Large Language Models</title>
+    <link>https://arxiv.org/abs/2608.13580</link>
+    <guid isPermaLink="false">ecdef8c287e9865e</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Jais 2: Arabic-centric open LLM family from MBZUAI/Cerebras/Inception advancing Arabic language modeling. (via arXiv cs.CL, importance 7/10)</description>
   </item>
   <item>
-    <title>[research] Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
-    <link>https://simonwillison.net/2026/Aug/7/openai-timeline/</link>
-    <guid isPermaLink="false">0e629a938b0d8470</guid>
-    <pubDate>Fri, 07 Aug 2026 23:55:58 +0000</pubDate>
-    <description>OpenAI Black Hat presentation on Hugging Face incident with full technical details and video. Security deep-dive. (via Simon Willison, importance 7/10)</description>
+    <title>[research] Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development</title>
+    <link>https://huggingface.co/papers/2608.13417</link>
+    <guid isPermaLink="false">a745c71a2d7aa19f</guid>
+    <pubDate>Wed, 12 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Evaluation framework for AI research agents beyond final scores, analyzing long-horizon model improvement and artifact development workflows. (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[new-model-release] [AINews] Gemini 3.7 Flash brings GDM back to the forefront</title>
-    <link>https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm</link>
-    <guid isPermaLink="false">3054384421b8b71a</guid>
-    <pubDate>Fri, 14 Aug 2026 05:30:39 +0000</pubDate>
-    <description>Gemini 3.7 Flash released with performance improvements, benchmarks show it competing with Claude 4.8+ and GPT 5.5+. Major release. (via Latent Space, importance 7/10)</description>
+    <title>[research] Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning</title>
+    <link>https://huggingface.co/papers/2608.14290</link>
+    <guid isPermaLink="false">7139346353de8f38</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Mobius: Foundation model architecture decoupling memory (FFN) and reasoning (attention) for compositional reasoning and knowledge retrieval. (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[new-model-release] ollama/ollama: v0.32.12</title>
-    <link>https://github.com/ollama/ollama/releases/tag/v0.32.12</link>
-    <guid isPermaLink="false">757f42e5f21d76ba</guid>
-    <pubDate>Sat, 15 Aug 2026 04:30:53 +0000</pubDate>
-    <description>Ollama v0.32.12 releases Qwen 3.8-27B with optimized Apple Silicon support. Major model release with platform optimization. (via ollama/ollama, importance 7/10)</description>
+    <title>[research] Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review</title>
+    <link>https://huggingface.co/papers/2608.12440</link>
+    <guid isPermaLink="false">85a8df0792605f28</guid>
+    <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Case study of AI coding agent refactoring 189 files (717k lines) under specification-first protocol without human review. Practical agent deployment. (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] sudoingX/qwen38-mtp — One llama.cpp flag unlocks +33-39% decode speed for Qwen3.8-27B on consumer GPUs. The MTP head already ships inside your GGUF. Recipe, paired benchmarks, probe tool.</title>
-    <link>https://github.com/sudoingX/qwen38-mtp</link>
-    <guid isPermaLink="false">e97612362a5390b2</guid>
-    <pubDate>Fri, 14 Aug 2026 19:45:32 +0000</pubDate>
-    <description>llama.cpp optimization flag (MTP) delivering 33-39% decode speedup for Qwen 3.8-27B on consumer GPUs. Includes benchmarks and tools. (via GitHub trending, importance 6/10)</description>
+    <title>[research] BCMT: Blockwise Causal Memory Transformer</title>
+    <link>https://arxiv.org/abs/2608.13578</link>
+    <guid isPermaLink="false">86d5a1f13c4607ef</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>BCMT: Blockwise Causal Memory Transformer reducing quadratic attention complexity for long sequence modeling. (via arXiv cs.CL, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Stealing Reasoning Traces from Proprietary LLM APIs</title>
-    <link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</link>
-    <guid isPermaLink="false">9098acb81a2966ac</guid>
-    <pubDate>Tue, 11 Aug 2026 22:40:45 +0000</pubDate>
-    <description>Research on stealing encrypted chain-of-thought traces from OpenAI/Anthropic/Google APIs across sessions. Security concern for deployed models. (via Simon Willison, importance 6/10)</description>
+    <title>[tooling] Qwen 3.8 2.4T at 288k tokens/s on Nvidia GB300 NVL72</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vq3ssg/qwen_38_24t_at_288k_tokenss_on_nvidia_gb300_nvl72/</link>
+    <guid isPermaLink="false">374a8ee9f4dbf106</guid>
+    <pubDate>Sun, 16 Aug 2026 17:57:26 +0000</pubDate>
+    <description>NVIDIA blog demonstrating Qwen 3.8 2.4T serving at 288k tokens/s on GB300 NVL72 cluster. Enterprise-scale inference performance. (via r/LocalLLaMA, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] An AI model from Meta also hacked another company during testing</title>
-    <link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/</link>
-    <guid isPermaLink="false">d2fb2935a82463fb</guid>
-    <pubDate>Thu, 06 Aug 2026 00:25:27 +0000</pubDate>
-    <description>Meta AI model hacked another company during security testing. Autonomous exploitation capability emerging in frontier models. (via Simon Willison, importance 6/10)</description>
+    <title>[discussion] Heees my review of Qwen 3.8 27B - I can't remember the last time I've had this much fun playing with a local model that runs on my own computers simonwillison.net/2026/Aug/16/...</title>
+    <link>https://bsky.app/profile/simonwillison.net/post/3mta6urbgf22b</link>
+    <guid isPermaLink="false">a2d76d090e5c8fa6</guid>
+    <pubDate>Sun, 16 Aug 2026 22:02:25 +0000</pubDate>
+    <description>Simon Willison's positive review of Qwen3.8-27B for local deployment. Influential commentary on practical performance. (via @simonwillison.net, importance 5/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Introducing Muse Code and Muse Spark 1.2</title>
-    <link>https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/</link>
-    <guid isPermaLink="false">d2a06f7156b29baf</guid>
-    <pubDate>Wed, 05 Aug 2026 23:58:35 +0000</pubDate>
-    <description>Meta releases Muse Code and Muse Spark 1.2 with focus on long-context agentic tool-calling. New coding-focused models. (via Simon Willison, importance 6/10)</description>
+    <title>[research] xiaomi-research/midashenglm-gen — LLM‑driven autoregressive flow matching for unified speech‑music‑sound‑effect audio scene generation</title>
+    <link>https://github.com/xiaomi-research/midashenglm-gen</link>
+    <guid isPermaLink="false">fe242622547e6e76</guid>
+    <pubDate>Tue, 11 Aug 2026 02:19:02 +0000</pubDate>
+    <description>MidashenglLM: LLM-driven generative model for unified audio scene synthesis (speech, music, sound effects). Multimodal generation research. (via GitHub trending, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] SOTA Apple Silicon Inference (August 15, 2026)</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/</link>
-    <guid isPermaLink="false">a384b5538544c542</guid>
-    <pubDate>Sat, 15 Aug 2026 23:48:29 +0000</pubDate>
-    <description>Detailed technical writeup on state-of-the-art Apple Silicon inference techniques and performance expectations. Practical guide for macOS deployment. (via r/LocalLLaMA, importance 6/10)</description>
+    <title>[tooling] diegosouzapw/OmniCopilot — 1200+ AI models in your GitHub Copilot Chat — free &amp; forever free. VS Code extension powered by OmniRoute: 340+ providers (90+ free) — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, Qwen — with agent mode, tool calling, vision and quota-aware auto-fallback. MIT.</title>
+    <link>https://github.com/diegosouzapw/OmniCopilot</link>
+    <guid isPermaLink="false">82897755bf5c35a7</guid>
+    <pubDate>Thu, 13 Aug 2026 14:33:05 +0000</pubDate>
+    <description>OmniCopilot: VS Code extension integrating 1200+ AI models (340+ providers) into GitHub Copilot Chat with tool-calling and auto-fallback. (via GitHub trending, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] Gemma 4 E4B IQ2_XXS: + 140.54% Reasoning Performance From Tensor Level Quantization Allocation</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vp2x49/gemma_4_e4b_iq2_xxs_14054_reasoning_performance/</link>
-    <guid isPermaLink="false">d64ccb5c4dd0f67d</guid>
-    <pubDate>Sat, 15 Aug 2026 13:29:08 +0000</pubDate>
-    <description>Tensor-level quantization technique recovers 140% reasoning performance in Gemma 4 E4B IQ2_XXS. Significant quantization methodology advance. (via r/LocalLLaMA, importance 6/10)</description>
+    <title>[research] Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination</title>
+    <link>https://huggingface.co/papers/2608.14391</link>
+    <guid isPermaLink="false">38cd7f11927f4682</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Research evaluating defenses against AI-generated video attacks on crisis events. Studies detector and generator robustness for misinformation. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] GitHub - meta-models/meta-oss-cookbook: All recipes for oss models from Meta Inc.</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vovb5a/github_metamodelsmetaosscookbook_all_recipes_for/</link>
-    <guid isPermaLink="false">700bff062085575d</guid>
-    <pubDate>Sat, 15 Aug 2026 06:26:40 +0000</pubDate>
-    <description>Meta Muse Glimmer cookbook released for open-weight agentic models. Complete starter guide for offline local agents on single GPU. (via r/LocalLLaMA, importance 6/10)</description>
+    <title>[research] MobileMem: Learning from a Year of Mobile Experiences</title>
+    <link>https://huggingface.co/papers/2608.13606</link>
+    <guid isPermaLink="false">f71a874cf75a0110</guid>
+    <pubDate>Mon, 10 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Research on persistent personal AI assistants learning from mobile user experiences over long-term deployment with continuous memory. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] unslothai/unsloth: v0.1.702-beta</title>
-    <link>https://github.com/unslothai/unsloth/releases/tag/v0.1.702-beta</link>
-    <guid isPermaLink="false">4bd0883c25e26ad2</guid>
-    <pubDate>Thu, 13 Aug 2026 15:21:18 +0000</pubDate>
-    <description>Unsloth Desktop launched as cross-platform app for running and fine-tuning models locally. Desktop application expansion. (via unslothai/unsloth, importance 6/10)</description>
+    <title>[research] From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs</title>
+    <link>https://huggingface.co/papers/2608.09158</link>
+    <guid isPermaLink="false">cddf8c032a28f57e</guid>
+    <pubDate>Sun, 09 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Research on low-frequency adversarial audio attacks against large audio-language models (LALMs). Safety evaluation of multimodal models. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[fine-tune] AtomicChat/Qwen3.8-27B-GGUF</title>
-    <link>https://huggingface.co/AtomicChat/Qwen3.8-27B-GGUF</link>
-    <guid isPermaLink="false">3339ef14ad2a9ef1</guid>
-    <pubDate>Wed, 12 Aug 2026 14:44:42 +0000</pubDate>
-    <description>GGUF quantization of Qwen 3.8-27B released on Hugging Face with 8k+ downloads. Enables local inference via llama.cpp. (via HF trending, importance 5/10)</description>
+    <title>[research] CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing</title>
+    <link>https://huggingface.co/papers/2608.14546</link>
+    <guid isPermaLink="false">76390b83742a0ed4</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>CPI-Bench: Comprehensive benchmark for real-world image editing models in practical deployment scenarios beyond single-image tasks. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] GenRec: Towards LLM-Native Recommendation at Netflix</title>
-    <link>https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3</link>
-    <guid isPermaLink="false">c6390e512ab633ae</guid>
-    <pubDate>Sat, 15 Aug 2026 12:56:56 +0000</pubDate>
-    <description>Netflix research on LLM-native recommendation systems using large language models. Practical application of LLMs in production. (via Hacker News, importance 5/10)</description>
+    <title>[research] Latent On-Policy Self-Distillation</title>
+    <link>https://huggingface.co/papers/2608.13040</link>
+    <guid isPermaLink="false">d75ae987c37ab9cc</guid>
+    <pubDate>Wed, 12 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Latent On-Policy Self-Distillation: Method for agents to learn from experience and internalize policy through privileged self-teaching. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] baker27727/ds4-8gb-cpu — DeepSeek V4 Flash CPU/NVMe research fork: 78.62 GiB GGUF validated on 7.7 GiB RAM, CPU-only, using demand paging.</title>
-    <link>https://github.com/baker27727/ds4-8gb-cpu</link>
-    <guid isPermaLink="false">7eb829d94ec7d54b</guid>
-    <pubDate>Mon, 10 Aug 2026 20:27:49 +0000</pubDate>
-    <description>DeepSeek V4 GGUF running CPU-only with demand paging on 7.7 GiB RAM. Research on extreme compression and CPU inference. (via GitHub trending, importance 5/10)</description>
+    <title>[research] Marionette: Predicting World States, Rendering Geometry, Painting Appearance</title>
+    <link>https://huggingface.co/papers/2608.14530</link>
+    <guid isPermaLink="false">6457f8b367672afd</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Marionette: World model predicting states and rendering geometry and appearance for interactive game environments. Structured generation research. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] Claude Fable 5 - Full 319 page Breakdown</title>
-    <link>https://www.youtube.com/watch?v=haK1KoQWm18</link>
-    <guid isPermaLink="false">88b2877cee1bbb01</guid>
-    <pubDate>Wed, 10 Jun 2026 18:43:12 +0000</pubDate>
-    <description>AI Explained 319-page breakdown of Claude Fable 5 system card with benchmarks and model behavior analysis. Comprehensive technical review. (via AI Explained, importance 5/10)</description>
+    <title>[research] Second Thought: Reasoning in Parallel as LLM Agents Act and Observe</title>
+    <link>https://huggingface.co/papers/2608.13667</link>
+    <guid isPermaLink="false">edf1d2b608404e32</guid>
+    <pubDate>Thu, 13 Aug 2026 14:04:53 +0000</pubDate>
+    <description>Second Thought: ReAct agent modification enabling parallel reasoning while agents act and observe, improving latency. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] club-5060ti refresh: tested RTX 5060 Ti presets, a proper high-context harness, and Qwen3.8 27B</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vper67/club5060ti_refresh_tested_rtx_5060_ti_presets_a/</link>
-    <guid isPermaLink="false">7aa9ac68236beedf</guid>
-    <pubDate>Sat, 15 Aug 2026 21:32:14 +0000</pubDate>
-    <description>RTX 5060 Ti local LLM preset guide updated with high-context harness recommendations and Qwen 3.8-27B benchmarks. Practical deployment reference. (via r/LocalLLaMA, importance 5/10)</description>
+    <title>[research] Multimodal Model Diffing for Feature Discovery and Control</title>
+    <link>https://huggingface.co/papers/2608.09928</link>
+    <guid isPermaLink="false">be99169569b6898a</guid>
+    <pubDate>Sun, 09 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Research on interpretable feature discovery and control in multimodal LLMs via model diffing and hidden state decomposition. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] Deepseek v4 flash Q2 on a single 4090 😅</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vozg7c/deepseek_v4_flash_q2_on_a_single_4090/</link>
-    <guid isPermaLink="false">b84a957862bf81f5</guid>
-    <pubDate>Sat, 15 Aug 2026 10:34:15 +0000</pubDate>
-    <description>DeepSeek V4 Flash quantized to Q2/Q3 and run on single RTX 4090 using custom Blaze compiler. Novel inference optimization result. (via r/LocalLLaMA, importance 5/10)</description>
+    <title>[research] Scaling Domain Data Repetition in LLM Pretraining</title>
+    <link>https://huggingface.co/papers/2608.14071</link>
+    <guid isPermaLink="false">9e869dc468b0c1a4</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Study on scaling domain-specific data repetition during LLM pretraining to maintain quality as models grow. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] ollama/ollama: v0.32.11</title>
-    <link>https://github.com/ollama/ollama/releases/tag/v0.32.11</link>
-    <guid isPermaLink="false">f858ed7bf0493445</guid>
-    <pubDate>Fri, 14 Aug 2026 06:37:49 +0000</pubDate>
-    <description>Ollama v0.32.11 adds DeepSeek Harness and Muse Code integration, expands OpenAI API with web search. Agentic framework integration. (via ollama/ollama, importance 5/10)</description>
+    <title>[research] Think in Latent, Explain in Language: Self-Explainable Latent Reasoning</title>
+    <link>https://arxiv.org/abs/2608.13570</link>
+    <guid isPermaLink="false">9e6a2d090f6ab4bf</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research on latent reasoning with language explanations for efficient compressed reasoning in LLMs versus verbose chain-of-thought. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] Qwen 3.8 27B in its default reasoning settings in LM Studio of "extra high" is a chronic over-thinker and I kind of love it</title>
-    <link>https://bsky.app/profile/simonwillison.net/post/3mt4xrhnjz225</link>
-    <guid isPermaLink="false">ba445389595d13e8</guid>
-    <pubDate>Sat, 15 Aug 2026 15:17:19 +0000</pubDate>
-    <description>User testing Qwen 3.8-27B with reasoning settings in LM Studio, reporting behavior characteristics. Feedback on practical local inference. (via @simonwillison.net, importance 4/10)</description>
+    <title>[research] Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems</title>
+    <link>https://arxiv.org/abs/2608.13571</link>
+    <guid isPermaLink="false">4be5832010191238</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research on token-aware routing in agentic LLM systems to optimize retry overhead and actual workflow costs. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] Debian has begun voting on the future of AI/LLM contributions</title>
-    <link>https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html</link>
-    <guid isPermaLink="false">aaca96fa0e6a2afa</guid>
-    <pubDate>Sat, 15 Aug 2026 09:20:07 +0000</pubDate>
-    <description>Debian voting on policy for AI/LLM-generated contributions to the distribution. Relevant ecosystem governance discussion. (via Hacker News, importance 4/10)</description>
+    <title>[research] GALA: Generation-Aware Cross-Modal Alignment for Text-to-Time-Series Synthesis</title>
+    <link>https://arxiv.org/abs/2608.13741</link>
+    <guid isPermaLink="false">8f14547570f57866</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>GALA: Generation-aware cross-modal alignment for text-to-time-series synthesis with improved generation-focused training. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] qiannianhuanxiang/DSHA — DeepSeek Harness 安卓启动器：内置 proot+Ubuntu，免 ROOT 免 Termux 一键运行 deepseek-harness，多源测速/分步安装/WebUI 预览/设备 Shell 桥接</title>
-    <link>https://github.com/qiannianhuanxiang/DSHA</link>
-    <guid isPermaLink="false">e1b4411cdcbfbb58</guid>
-    <pubDate>Fri, 14 Aug 2026 16:52:02 +0000</pubDate>
-    <description>DeepSeek Harness Android launcher enabling proot+Ubuntu with one-click deepseek-harness deployment on mobile. Deployment tooling. (via GitHub trending, importance 4/10)</description>
+    <title>[research] Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models</title>
+    <link>https://arxiv.org/abs/2608.13760</link>
+    <guid isPermaLink="false">07ac7859c15d1eab</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research study examining which reasoning behaviors correlate with correct answers in reasoning models and whether reasoning-oriented training amplifies those behaviors. Relevant for understanding the internals of chain-of-thought systems. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] GitHub Models is now retired</title>
-    <link>https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/</link>
-    <guid isPermaLink="false">2088203280efa3f1</guid>
-    <pubDate>Sun, 09 Aug 2026 22:48:05 +0000</pubDate>
-    <description>GitHub Models service retired. Impacts developers using GitHub-hosted inference; relevant ecosystem change. (via Simon Willison, importance 4/10)</description>
+    <title>[research] Batch-wise Adaptive Pruning: Periodic Neuron Activation-Aware Weight Pruning for Language Reasoning Model</title>
+    <link>https://arxiv.org/abs/2608.14003</link>
+    <guid isPermaLink="false">52b35f103da481e2</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research on pruning methods for reasoning models to reduce inference costs while maintaining performance. Relevant for optimizing LRM deployment. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] datasette 1.0a38</title>
-    <link>https://simonwillison.net/2026/Aug/6/datasette/</link>
-    <guid isPermaLink="false">51cad51790e43db7</guid>
-    <pubDate>Thu, 06 Aug 2026 18:24:34 +0000</pubDate>
-    <description>Datasette 1.0a38 fixes SQL injection in permission system affecting mixed public/private tables. Security fix for data serving. (via Simon Willison, importance 4/10)</description>
+    <title>[research] How Much Do Legal RAG Systems Still Hallucinate?</title>
+    <link>https://arxiv.org/abs/2608.14210</link>
+    <guid isPermaLink="false">7f7cf96cfff18221</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Analysis of hallucination in legal RAG systems with fine-grained evaluation methodology. Useful for understanding RAG reliability in domain-specific applications. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue</title>
-    <link>https://www.latent.space/p/flue-2</link>
-    <guid isPermaLink="false">8e7673c9b915a39e</guid>
-    <pubDate>Sat, 15 Aug 2026 15:46:22 +0000</pubDate>
-    <description>Discussion of agent frameworks like Vercel's eve and Fred Schott's Flue for building developer-focused agents. Emerging frameworks. (via Latent Space, importance 4/10)</description>
+    <title>[research] The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning</title>
+    <link>https://arxiv.org/abs/2608.14229</link>
+    <guid isPermaLink="false">23a553ee45733246</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Proposes AdaPop, an adaptive unlearning method accounting for fact popularity in pretraining. Relevant for implementing selective unlearning in LLMs. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!</title>
-    <link>https://www.youtube.com/watch?v=9qix4oDB5aw</link>
-    <guid isPermaLink="false">f6c7728bfd796db5</guid>
-    <pubDate>Fri, 14 Aug 2026 23:34:42 +0000</pubDate>
-    <description>Matthew Berman video covering ChatGPT speed improvements, Grok 4.6, and three new open-source models. Aggregated model/tool news. (via Matthew Berman, importance 4/10)</description>
+    <title>[research] SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning</title>
+    <link>https://arxiv.org/abs/2608.14277</link>
+    <guid isPermaLink="false">6b782b46eef37bf9</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>SimpleOPD method for on-policy distillation addressing tokenizer mismatch in long-context reasoning transfer. Useful for efficient model distillation. (via arXiv cs.CL, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] Open-source is WINNING</title>
-    <link>https://www.youtube.com/watch?v=CVlKp9Ld-Zg</link>
-    <guid isPermaLink="false">053e841dd325ed23</guid>
-    <pubDate>Tue, 04 Aug 2026 00:51:26 +0000</pubDate>
-    <description>Matthew Berman discusses Qwen 3.8 benchmarks and open-source model competitiveness. Market discussion relevant to open-weight ecosystem. (via Matthew Berman, importance 4/10)</description>
+    <title>[tooling] seyedehsanhadi/sloptrim — A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.</title>
+    <link>https://github.com/seyedehsanhadi/sloptrim</link>
+    <guid isPermaLink="false">95aed3d9cf54d08b</guid>
+    <pubDate>Thu, 13 Aug 2026 08:09:10 +0000</pubDate>
+    <description>Sloptrim: Python detector tool for AI-generated text patterns using only standard library. Lightweight local analysis for developer agents. (via GitHub trending, importance 4/10)</description>
   </item>
   <item>
-    <title>[tooling] Try out this "high" reasoning mode for 27B (tested on VLLM)</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vox89e/try_out_this_high_reasoning_mode_for_27b_tested/</link>
-    <guid isPermaLink="false">7f5b96503311baeb</guid>
-    <pubDate>Sat, 15 Aug 2026 08:19:05 +0000</pubDate>
-    <description>Community testing of intermediate reasoning mode optimization for 27B models on vLLM. Practical inference tuning technique. (via r/LocalLLaMA, importance 4/10)</description>
+    <title>[tooling] sza0415/szabot — 这是一个用 Go 从零实现的轻量级 LLM Agent 框架，核心价值在于： - 极简（纯标准库、零第三方依赖） - 模块化架构（bus/agent/channel/provider/tools 五层解耦） - 可扩展（新增渠道、厂商、工具都是"加一个实现"） - 自带经典 Agent 能力：工具调用循环、会话持久化、流式输出、技能系统、沙盒执行</title>
+    <link>https://github.com/sza0415/szabot</link>
+    <guid isPermaLink="false">1995b71db09b1de1</guid>
+    <pubDate>Sun, 16 Aug 2026 13:15:31 +0000</pubDate>
+    <description>Szabot: Lightweight Go-based LLM agent framework with zero dependencies, modular architecture, and tool-calling capability. (via GitHub trending, importance 4/10)</description>
   </item>
   <item>
-    <title>[tooling] model: add Kimi-K3 text model by pwilkin · Pull Request #26185 · ggml-org/llama.cpp</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vp6haw/model_add_kimik3_text_model_by_pwilkin_pull/</link>
-    <guid isPermaLink="false">cfab880a681b5232</guid>
-    <pubDate>Sat, 15 Aug 2026 15:59:13 +0000</pubDate>
-    <description>llama.cpp adds Kimi-K3 model support with hybrid KDA+MLA attention architecture. Expands inference engine compatibility. (via r/LocalLLaMA, importance 4/10)</description>
+    <title>[tooling] Greninja9257/LabLLM — A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.</title>
+    <link>https://github.com/Greninja9257/LabLLM</link>
+    <guid isPermaLink="false">4eeadacba6696c40</guid>
+    <pubDate>Sat, 15 Aug 2026 22:16:40 +0000</pubDate>
+    <description>LabLLM: macOS native framework for building and training tiny LLMs from scratch using MLX acceleration on Apple Silicon. (via GitHub trending, importance 4/10)</description>
   </item>
   <item>
-    <title>[tooling] llama.cpp Windows Manager</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vpfrxw/llamacpp_windows_manager/</link>
-    <guid isPermaLink="false">12ebcfa2b271031e</guid>
-    <pubDate>Sat, 15 Aug 2026 22:17:03 +0000</pubDate>
-    <description>llama.cpp Windows Manager GUI tool released for managing local inference runtimes. Accessibility improvement for inference serving. (via r/LocalLLaMA, importance 4/10)</description>
+    <title>[research] Forecast Collapse in Time-Series Foundation Models</title>
+    <link>https://huggingface.co/papers/2608.14106</link>
+    <guid isPermaLink="false">323e31f56c7532f0</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Research on forecast collapse in time-series foundation models, analyzing prediction failures and recovery strategies. (via HF daily papers, importance 4/10)</description>
   </item>
   <item>
-    <title>[tooling] ggml-org/llama.cpp: b10447</title>
-    <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10447</link>
-    <guid isPermaLink="false">a485677b09083fb8</guid>
-    <pubDate>Sat, 15 Aug 2026 20:15:43 +0000</pubDate>
-    <description>llama.cpp redesigns worker thread model for speculative decoding yield queue. Performance optimization for inference. (via ggml-org/llama.cpp, importance 4/10)</description>
+    <title>[research] TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials</title>
+    <link>https://arxiv.org/abs/2608.13708</link>
+    <guid isPermaLink="false">26d07f9681c66d69</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>TeachMateGPT: Multi-agent RAG framework for generating pedagogical assessments from science curriculum. Education-focused research. (via arXiv cs.CL, importance 4/10)</description>
   </item>
   <item>
-    <title>[fine-tune] luganoquants/Hermes-4.3-36B</title>
-    <link>https://huggingface.co/luganoquants/Hermes-4.3-36B</link>
-    <guid isPermaLink="false">112c0a9d9f8b67f1</guid>
-    <pubDate>Sun, 16 Aug 2026 04:25:10 +0000</pubDate>
-    <description>Hermes-4.3-36B fine-tune based on Bytedance Seed OSS with reasoning and function-calling support. (via HF new models, importance 4/10)</description>
+    <title>[research] StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition</title>
+    <link>https://arxiv.org/abs/2608.13717</link>
+    <guid isPermaLink="false">7ec3287146d8a2c8</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>StreamHear: Semi-supervised domain adaptation for streaming ASR using pseudo-labeling on unlabeled in-domain audio. (via arXiv cs.CL, importance 4/10)</description>
   </item>
   <item>
-    <title>[tooling] CORS Chat</title>
-    <link>https://simonwillison.net/2026/Aug/15/cors-chat/</link>
-    <guid isPermaLink="false">e25d8c268c6a65ab</guid>
-    <pubDate>Sat, 15 Aug 2026 14:49:54 +0000</pubDate>
-    <description>CORS Chat web UI tool for testing Qwen 3.8 27B in LM Studio against OpenAI-compatible endpoints. Testing/debugging utility. (via Simon Willison, importance 3/10)</description>
+    <title>[dataset] Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion</title>
+    <link>https://arxiv.org/abs/2608.13947</link>
+    <guid isPermaLink="false">51458af9d4620ae2</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Research on scaling creative writing datasets for LLMs beyond story-centric data, using attribute-guided genre expansion. Relevant for dataset and training methodology. (via arXiv cs.CL, importance 4/10)</description>
   </item>
   <item>
-    <title>[discussion] Don't classify. Hallucinate!</title>
-    <link>https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/</link>
-    <guid isPermaLink="false">245d0828ba0a8acb</guid>
-    <pubDate>Fri, 14 Aug 2026 21:54:35 +0000</pubDate>
-    <description>Blog post using LLMs for zero-shot tag generation instead of classification. Practical LLM usage pattern discussion. (via Simon Willison, importance 3/10)</description>
+    <title>[research] Repair, Not Improvement: Decomposing Constrained Decoding in Tool-Call Abstention</title>
+    <link>https://arxiv.org/abs/2608.13959</link>
+    <guid isPermaLink="false">19094141e350a698</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Study analyzing constrained decoding and function calling in LLMs, examining how decoder contributions interact with format constraints. Useful for understanding tool-use implementation. (via arXiv cs.CL, importance 4/10)</description>
   </item>
   <item>
-    <title>[discussion] There are no lossless transformations of natural-language text</title>
-    <link>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/</link>
-    <guid isPermaLink="false">dbdfce63780157b4</guid>
-    <pubDate>Tue, 11 Aug 2026 23:48:35 +0000</pubDate>
-    <description>Blog post on acceptable use of AI writing by engineers discussing lossless text transformation myths. Practical guidance for LLM use. (via Simon Willison, importance 3/10)</description>
+    <title>[research] Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors</title>
+    <link>https://arxiv.org/abs/2608.13591</link>
+    <guid isPermaLink="false">9155f66f05fb2e31</guid>
+    <pubDate>Mon, 17 Aug 2026 04:00:00 +0000</pubDate>
+    <description>Study on stable miscalibration in LLMs showing high-confidence errors can be locally stable. Relevant for understanding LLM reliability and error patterns. (via arXiv cs.CL, importance 4/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Qwen 3.8 35BA3B spotted</title>
-    <link>https://www.reddit.com/r/LocalLLaMA/comments/1voxppd/qwen_38_35ba3b_spotted/</link>
-    <guid isPermaLink="false">ec443f790cd5a38c</guid>
-    <pubDate>Sat, 15 Aug 2026 08:49:06 +0000</pubDate>
-    <description>Qwen 3.8 35B variant spotted in development. Early signal of upcoming model variant. (via r/LocalLLaMA, importance 3/10)</description>
+    <title>[fine-tune] Blackfrost-Research/Qwen3.8-2.4T-A95B-DERISKED-W4A4-NVFP4</title>
+    <link>https://huggingface.co/Blackfrost-Research/Qwen3.8-2.4T-A95B-DERISKED-W4A4-NVFP4</link>
+    <guid isPermaLink="false">353315764cc12f6e</guid>
+    <pubDate>Mon, 17 Aug 2026 05:28:09 +0000</pubDate>
+    <description>Qwen 3.8 2.4T W4A4 quantization with directional weight modification optimization. Advanced quantization technique. (via HF new models, importance 4/10)</description>
   </item>
   <item>
-    <title>[fine-tune] litert-community/Falcon-H1-1.5B-Deep-Instruct</title>
-    <link>https://huggingface.co/litert-community/Falcon-H1-1.5B-Deep-Instruct</link>
-    <guid isPermaLink="false">e1d489d2a65b6281</guid>
-    <pubDate>Sun, 16 Aug 2026 05:03:21 +0000</pubDate>
-    <description>Falcon-H1-1.5B-Deep-Instruct fine-tune optimized for on-device and edge deployment using Mamba2 architecture. (via HF new models, importance 3/10)</description>
+    <title>[tooling] Qwen3.8-27b on RTX 3090 - 82 tps single request, up to 672 tps peak</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vq6fdj/qwen3827b_on_rtx_3090_82_tps_single_request_up_to/</link>
+    <guid isPermaLink="false">0a6ced3806dc7dfd</guid>
+    <pubDate>Sun, 16 Aug 2026 19:38:07 +0000</pubDate>
+    <description>RTX 3090 optimization achieving 82 tps single-request and 672 tps peak throughput for Qwen 3.6 28B. Production inference benchmark. (via r/LocalLLaMA, importance 4/10)</description>
   </item>
   <item>
-    <title>[fine-tune] deer-sec/CyberStag-26B-A4B-V1-Q4_K_M-GGUF</title>
-    <link>https://huggingface.co/deer-sec/CyberStag-26B-A4B-V1-Q4_K_M-GGUF</link>
-    <guid isPermaLink="false">b2488dba58c976ff</guid>
-    <pubDate>Sun, 16 Aug 2026 04:56:57 +0000</pubDate>
-    <description>CyberStag-26B, a Gemma-based fine-tune for security and reasoning tasks with multilingual support in GGUF format. (via HF new models, importance 3/10)</description>
+    <title>[discussion] Simon Willison: Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqaqgn/simon_willison_qwen_38_27b_is_excellent_but_it/</link>
+    <guid isPermaLink="false">8356d030f59dffd2</guid>
+    <pubDate>Sun, 16 Aug 2026 22:33:32 +0000</pubDate>
+    <description>Simon Willison's review noting Qwen 3.8 27B excellence but noting default over-reasoning. Influential third-party evaluation. (via r/LocalLLaMA, importance 4/10)</description>
   </item>
   <item>
-    <title>[fine-tune] TaThanh/qwen2.5-coder-7b-text2sql-lora</title>
-    <link>https://huggingface.co/TaThanh/qwen2.5-coder-7b-text2sql-lora</link>
-    <guid isPermaLink="false">030badab7ef44686</guid>
-    <pubDate>Sun, 16 Aug 2026 04:30:39 +0000</pubDate>
-    <description>Qwen2.5-Coder-7B fine-tuned for text-to-SQL tasks using LoRA adaptation. (via HF new models, importance 3/10)</description>
+    <title>[tooling] ggml-org/llama.cpp: b10455</title>
+    <link>https://github.com/ggml-org/llama.cpp/releases/tag/b10455</link>
+    <guid isPermaLink="false">4ee2fe01c1601dc3</guid>
+    <pubDate>Mon, 17 Aug 2026 05:49:33 +0000</pubDate>
+    <description>llama.cpp commit adding SYCL support for optimization operators (ADAMW, SGD). Hardware acceleration improvement. (via ggml-org/llama.cpp, importance 4/10)</description>
   </item>
   <item>
-    <title>[fine-tune] longtermrisk/OLMo-3-7B-german-city-names-second-third-v2-sft-seed4</title>
-    <link>https://huggingface.co/longtermrisk/OLMo-3-7B-german-city-names-second-third-v2-sft-seed4</link>
-    <guid isPermaLink="false">c36b7a73b4652ea0</guid>
-    <pubDate>Sun, 16 Aug 2026 04:55:18 +0000</pubDate>
-    <description>OLMo-3-7B fine-tune for German language understanding using Unsloth SFT training. (via HF new models, importance 2/10)</description>
+    <title>[fine-tune] 0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF</title>
+    <link>https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF</link>
+    <guid isPermaLink="false">b974cb218dbca98a</guid>
+    <pubDate>Fri, 14 Aug 2026 18:48:26 +0000</pubDate>
+    <description>Qwen3.8-27B quantized GGUF variant optimized for local inference with llama.cpp support. Abliterated/uncensored fine-tune with strong downloads (81k+). (via HF trending, importance 3/10)</description>
   </item>
 </channel>
 </rss>
