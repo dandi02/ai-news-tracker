@@ -4,7 +4,7 @@
   <title>SQP AI News Tracker</title>
   <link>https://dandi02.github.io/ai-news-tracker/</link>
   <description>Daily curated open-source LLM news for SQP developers</description>
-  <lastBuildDate>Tue, 18 Aug 2026 05:45:55 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 12:01:35 +0000</lastBuildDate>
   <item>
     <title>[new-model-release] Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM</title>
     <link>https://huggingface.co/blog/gemma3</link>
@@ -67,6 +67,62 @@
     <guid isPermaLink="false">7a096bb2661562db</guid>
     <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
     <description>SmolVLM is a small yet capable vision-language model. Lightweight multimodal model relevant for resource-constrained deployments. (via Hugging Face Blog, importance 7/10)</description>
+  </item>
+  <item>
+    <title>[tooling] syv-ai/qwen38-27b-rtx3090 — Qwen3.8-27B on a single RTX 3090 with vLLM: ~1,000 tok/s at 64 concurrent (int8 tensor-core GEMMs, fp16 DeltaNet state), 84-90 tok/s single-user (MTP with cheap drafts), 150k context — 262k with the ported KVarN 4/2-bit KV cache; patches, requant scripts, benchmarks</title>
+    <link>https://github.com/syv-ai/qwen38-27b-rtx3090</link>
+    <guid isPermaLink="false">e885dd57bc6131a7</guid>
+    <pubDate>Sat, 15 Aug 2026 09:10:56 +0000</pubDate>
+    <description>Optimized Qwen3.8-27B inference on RTX 3090 with detailed benchmarks, quantization scripts, and KVarN cache techniques. Provides practical single-GPU setup for developers. (via GitHub trending, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[new-model-release] MOSS-VL Technical Report</title>
+    <link>https://huggingface.co/papers/2608.15045</link>
+    <guid isPermaLink="false">5cac15ada9e12023</guid>
+    <pubDate>Fri, 14 Aug 2026 20:00:00 +0000</pubDate>
+    <description>MOSS-VL open vision-language model with real-time streaming perception capability. Adds to the open-source multimodal model ecosystem. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search</title>
+    <link>https://huggingface.co/papers/2608.15669</link>
+    <guid isPermaLink="false">2572b9fa66149537</guid>
+    <pubDate>Sat, 15 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Large Discovery Models for open-ended scientific search across structured hypothesis spaces. Demonstrates agentic LLM use for molecular and sequence design. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks</title>
+    <link>https://huggingface.co/papers/2608.14905</link>
+    <guid isPermaLink="false">25f481e0652167f1</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Diagnostic evaluation of LLM agents on 100 real-world research tasks, identifying failure modes in AutoResearch pipelines. Benchmarks end-to-end autonomous research workflows. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] Local agentic coding Benchmark : Qwen 3.8 27B (in many weights quants / cache quants / engine / reasoning effort) vs others.</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vr4bs4/local_agentic_coding_benchmark_qwen_38_27b_in/</link>
+    <guid isPermaLink="false">b03a9850a0c7218e</guid>
+    <pubDate>Mon, 17 Aug 2026 20:45:23 +0000</pubDate>
+    <description>Comprehensive agentic coding benchmark comparing Qwen3.8-27B at multiple reasoning levels against other models with quantization/cache variants. (via r/LocalLLaMA, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[tooling] llama.cpp version v0.1.0 has been released</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqszw0/llamacpp_version_v010_has_been_released/</link>
+    <guid isPermaLink="false">98e56a4e5d374ad9</guid>
+    <pubDate>Mon, 17 Aug 2026 13:53:51 +0000</pubDate>
+    <description>llama.cpp transitions to semantic versioning with v0.1.0 release. Major tooling milestone for community inference engine. (via r/LocalLLaMA, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[new-model-release] tencent/UI-Mate-27B · Hugging Face</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vrhg08/tencentuimate27b_hugging_face/</link>
+    <guid isPermaLink="false">ae40e26c7f95c607</guid>
+    <pubDate>Tue, 18 Aug 2026 06:42:32 +0000</pubDate>
+    <description>Tencent UI-Mate-27B open-weight foundation model for GUI automation with long-context reasoning. New multimodal agent model. (via r/LocalLLaMA, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] [Paper] Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqrf6p/paper_interns2mobius_foundation_model_with/</link>
+    <guid isPermaLink="false">da258223d4ea22f1</guid>
+    <pubDate>Mon, 17 Aug 2026 12:49:03 +0000</pubDate>
+    <description>Intern-S2-Mobius architecture paper with decoupled knowledge and reasoning via shared FFN memory and multiple reasoners. Novel model architecture research. (via r/LocalLLaMA, importance 6/10)</description>
   </item>
   <item>
     <title>[tooling] memoket/memoket-kite — An open-source, vector-free long-term memory engine for AI agents, achieving SOTA on LoCoMo and LongMemEval with significantly less context.</title>
@@ -167,123 +223,67 @@
     <description>Aya Expanse advances multilingual capabilities in open LLMs. Research on multilingual model development and performance. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Qwen3.8 27B scores 52 on Artificial Analysis</title>
-    <link>https://artificialanalysis.ai/models/qwen3-8-27b</link>
-    <guid isPermaLink="false">30e1e03328df96d5</guid>
-    <pubDate>Mon, 17 Aug 2026 17:25:17 +0000</pubDate>
-    <description>Qwen3.8-27B scores 52 on Artificial Analysis benchmark. Performance evaluation data for open-weight model. (via Hacker News, importance 5/10)</description>
+    <title>[tooling] Linux 7.3 improves performance when running out of vRAM</title>
+    <link>https://pixelcluster.dev/VRAM-Overcommit/</link>
+    <guid isPermaLink="false">765d7beae5bef789</guid>
+    <pubDate>Tue, 18 Aug 2026 07:51:50 +0000</pubDate>
+    <description>Linux 7.3 kernel improvements for handling out-of-VRAM scenarios during LLM inference. Relevant for optimizing local inference performance on memory-constrained systems. (via Hacker News, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] browser-use/macos-harness — The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.</title>
-    <link>https://github.com/browser-use/macos-harness</link>
-    <guid isPermaLink="false">0ca5177cbf23bd25</guid>
-    <pubDate>Mon, 17 Aug 2026 00:22:20 +0000</pubDate>
-    <description>browser-use/macos-harness enables LLM agents to control macOS. Practical agent deployment framework; 186 stars. (via GitHub trending, importance 5/10)</description>
+    <title>[research] amitshekhariitbhu/llm-inference-engineering — Learn LLM Inference Engineering step by step - from KV cache, PagedAttention, and continuous batching to vLLM, SGLang, and GPUs.</title>
+    <link>https://github.com/amitshekhariitbhu/llm-inference-engineering</link>
+    <guid isPermaLink="false">73853ada04cdc66b</guid>
+    <pubDate>Tue, 18 Aug 2026 03:10:26 +0000</pubDate>
+    <description>Educational resource covering LLM inference engineering fundamentals including KV cache, PagedAttention, and vLLM/SGLang. Useful reference for developers learning optimization techniques. (via GitHub trending, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] Launch HN: Speko (YC S26) – OpenRouter for Voice AI</title>
-    <link>https://speko.ai/</link>
-    <guid isPermaLink="false">e9bd6d4edbf3eb0b</guid>
-    <pubDate>Mon, 17 Aug 2026 15:36:18 +0000</pubDate>
-    <description>Speko (YC S26) combines speech-to-text, LLM, and TTS model selection. OpenRouter-style orchestration for voice AI workflows. (via Hacker News, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[discussion] The core of open-source AI is that the training recipe itself is the closest analogue to Linux and open-source software. Model weights are transient. Nvidia is building their models in the open so eve</title>
-    <link>https://bsky.app/profile/natolambert.bsky.social/post/3mtbykspx7b2x</link>
-    <guid isPermaLink="false">380e8fed12dc91c5</guid>
-    <pubDate>Mon, 17 Aug 2026 15:14:47 +0000</pubDate>
-    <description>Bluesky post on open-source AI: argues training recipes (not just weights) are the core open-source analog, noting Nvidia's open model development. (via @natolambert.bsky.social, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning</title>
-    <link>https://huggingface.co/papers/2608.14277</link>
-    <guid isPermaLink="false">4eb8c1155243f1d5</guid>
-    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
-    <description>SimpleOPD: on-policy distillation for long-context reasoning, training-free method for tokenizer-agnostic knowledge transfer. Research on efficient model compression. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] Modular Cognitive Architecture Emerges in Large Language Models</title>
-    <link>https://huggingface.co/papers/2608.13567</link>
-    <guid isPermaLink="false">12b1f93a3de95cf5</guid>
-    <pubDate>Fri, 26 Jun 2026 21:56:22 +0000</pubDate>
-    <description>Modular Cognitive Architecture in LLMs: evidence that LLMs develop specialized functional networks. Research on LLM internal organization and interpretability. (via HF daily papers, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models</title>
-    <link>https://huggingface.co/papers/2608.16887</link>
-    <guid isPermaLink="false">b8294937ed01f8a2</guid>
+    <title>[research] Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization</title>
+    <link>https://huggingface.co/papers/2608.16072</link>
+    <guid isPermaLink="false">bc9459f6317d3728</guid>
     <pubDate>Sun, 16 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Empirical study of training pixel-space text-to-image diffusion models. Practical training recipe for generative models at scale. (via HF daily papers, importance 5/10)</description>
+    <description>Research on saturation-aware reward reweighting for multi-objective RL in language model post-training. Improves training efficiency for reasoning models. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets</title>
-    <link>https://huggingface.co/papers/2608.16033</link>
-    <guid isPermaLink="false">c9970f6cfef65bbf</guid>
+    <title>[dataset] Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI</title>
+    <link>https://huggingface.co/papers/2608.16319</link>
+    <guid isPermaLink="false">9d151918db2e51ed</guid>
     <pubDate>Sun, 16 Aug 2026 20:00:00 +0000</pubDate>
-    <description>R³-Bench: evaluates LLM resource-rational reasoning under shared budgets. Benchmark highlighting reasoning cost allocation challenges. (via HF daily papers, importance 5/10)</description>
+    <description>Open-source relational learning tools: RelArena-α, TabPFN-Rel, and RPI. Releases from Prior Labs advancing reproducible ML research. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] Claim-Level Reliability Assessment for Efficient Test-Time Reasoning</title>
-    <link>https://huggingface.co/papers/2608.11994</link>
-    <guid isPermaLink="false">740fbec912c232ac</guid>
-    <pubDate>Tue, 11 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Claim-Level Reliability Assessment (CLR): training-free test-time scaling via targeted verification instead of sampling. Efficient inference optimization. (via HF daily papers, importance 5/10)</description>
+    <title>[discussion] Teaching Everyone to Fish for Tokens</title>
+    <link>https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens</link>
+    <guid isPermaLink="false">9281ee7ce82e1245</guid>
+    <pubDate>Mon, 17 Aug 2026 15:07:49 +0000</pubDate>
+    <description>Essay comparing open-source LLM development trajectories to Linux ecosystem, examining business models and adoption patterns. (via Interconnects, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure</title>
-    <link>https://huggingface.co/papers/2608.13545</link>
-    <guid isPermaLink="false">445fce4891f32203</guid>
-    <pubDate>Wed, 12 Aug 2026 20:00:00 +0000</pubDate>
-    <description>LittleLearner: controlled 88B-token pretraining curriculum to study knowledge acquisition in language models. Research methodology for understanding LLM learning. (via HF daily papers, importance 5/10)</description>
+    <title>[tooling] After pushing 1M+ tokens through Qwen 3.8 27B, here is my optimal llama.cpp config for 16GB VRAM (73k Context, Agentic Coding)</title>
+    <link>https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/</link>
+    <guid isPermaLink="false">81fcb1f3d0a05212</guid>
+    <pubDate>Mon, 17 Aug 2026 13:05:26 +0000</pubDate>
+    <description>Optimized llama.cpp configuration for Qwen3.8-27B on RTX 5060 Ti achieving 73k context and 1M+ token throughput. Practical deployment guide. (via r/LocalLLaMA, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse</title>
-    <link>https://huggingface.co/papers/2608.06947</link>
-    <guid isPermaLink="false">3b352ffe1381ee2f</guid>
-    <pubDate>Thu, 06 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Method for detecting RAG poisoning attacks via document-level attention collapse. Improves RAG security for production deployments. (via HF daily papers, importance 5/10)</description>
+    <title>[tooling] primitive-ai/Laguna-S-2.1-mixed-NVFP4-MXFP8</title>
+    <link>https://huggingface.co/primitive-ai/Laguna-S-2.1-mixed-NVFP4-MXFP8</link>
+    <guid isPermaLink="false">ecb71808d0f354b6</guid>
+    <pubDate>Tue, 18 Aug 2026 11:14:52 +0000</pubDate>
+    <description>Laguna-S 2.1 model quantized with NVIDIA's NVFP4 and MXFP8 mixed-precision formats for inference optimization on Blackwell hardware. (via HF new models, importance 5/10)</description>
   </item>
   <item>
-    <title>[discussion] HuggingFace, IISc partner to supercharge model building on India's diverse languages</title>
-    <link>https://huggingface.co/blog/iisc-huggingface-collab</link>
-    <guid isPermaLink="false">053445722cecfab4</guid>
-    <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-    <description>Hugging Face and IISc partnership to build models for Indian languages. Initiative to improve open models for low-resource languages. (via Hugging Face Blog, importance 5/10)</description>
+    <title>[tooling] jpsequeira/GLM-5.2-EXL3-TR3-3.40bpw-KVarN-K4V2</title>
+    <link>https://huggingface.co/jpsequeira/GLM-5.2-EXL3-TR3-3.40bpw-KVarN-K4V2</link>
+    <guid isPermaLink="false">251149ad5ab2a4be</guid>
+    <pubDate>Tue, 18 Aug 2026 10:53:39 +0000</pubDate>
+    <description>GLM-5.2 MoE quantized to 3.40 bits-per-weight using EXL3 format with speculative decoding and long-context support for vLLM inference. (via HF new models, importance 5/10)</description>
   </item>
   <item>
-    <title>[new-model-release] SigLIP 2: A better multilingual vision language encoder</title>
-    <link>https://huggingface.co/blog/siglip2</link>
-    <guid isPermaLink="false">b50e48c9e97596c3</guid>
-    <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-    <description>SigLIP 2 multilingual vision language encoder. Improved multilingual vision-language model for retrieval and understanding. (via Hugging Face Blog, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[new-model-release] SmolVLM2: Bringing Video Understanding to Every Device</title>
-    <link>https://huggingface.co/blog/smolvlm2</link>
-    <guid isPermaLink="false">e16c5ec1c6f5ec92</guid>
-    <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-    <description>SmolVLM2 adds video understanding capability to small vision-language models. Extends lightweight VLM to video modality. (via Hugging Face Blog, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[new-model-release] PaliGemma 2 Mix - New Instruction Vision Language Models by Google</title>
-    <link>https://huggingface.co/blog/paligemma2mix</link>
-    <guid isPermaLink="false">c0882d8461a5c594</guid>
-    <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-    <description>PaliGemma 2 Mix instruction-tuned vision-language models from Google. New instruction-tuned variant of Google's vision model. (via Hugging Face Blog, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] Fixing Open LLM Leaderboard with Math-Verify</title>
-    <link>https://huggingface.co/blog/math_verify_leaderboard</link>
-    <guid isPermaLink="false">7e84f6075ad05c21</guid>
-    <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
-    <description>Math-Verify improves Open LLM Leaderboard evaluation methodology. Enhanced evaluation tool for benchmark integrity. (via Hugging Face Blog, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] The Open Arabic LLM Leaderboard 2</title>
-    <link>https://huggingface.co/blog/leaderboard-arabic-v2</link>
-    <guid isPermaLink="false">b31387e14d52fd9a</guid>
-    <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-    <description>Open Arabic LLM Leaderboard 2 released. Benchmark for evaluating Arabic language models. (via Hugging Face Blog, importance 5/10)</description>
+    <title>[tooling] PreDoctor/Qwen3.8-27B-NVFP4-W4A16-WebGPU</title>
+    <link>https://huggingface.co/PreDoctor/Qwen3.8-27B-NVFP4-W4A16-WebGPU</link>
+    <guid isPermaLink="false">78d924ae755640ab</guid>
+    <pubDate>Tue, 18 Aug 2026 10:01:04 +0000</pubDate>
+    <description>Qwen3.8-27B quantized with NVFP4 W4A16 for WebGPU in-browser inference, enabling client-side deployment of large models. (via HF new models, importance 5/10)</description>
   </item>
 </channel>
 </rss>

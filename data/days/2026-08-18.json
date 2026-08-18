@@ -1,18 +1,18 @@
 {
  "date": "2026-08-18",
- "generated_at": "2026-08-18T05:45:55.171430+00:00",
+ "generated_at": "2026-08-18T12:01:35.906332+00:00",
  "sources_status": {
   "rss": {
    "ok": true,
-   "count": 933
+   "count": 40
   },
   "youtube": {
    "ok": true,
-   "count": 0
+   "count": 19
   },
   "hackernews": {
    "ok": true,
-   "count": 69
+   "count": 67
   },
   "reddit": {
    "ok": true,
@@ -24,7 +24,7 @@
   },
   "github_repos": {
    "ok": true,
-   "count": 45
+   "count": 57
   },
   "huggingface": {
    "ok": true,
@@ -239,6 +239,204 @@
    "importance": 7,
    "category": "new-model-release",
    "group_key": "smolvlm-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "e885dd57bc6131a7",
+   "source_type": "github_repo",
+   "source_name": "GitHub trending",
+   "title": "syv-ai/qwen38-27b-rtx3090 — Qwen3.8-27B on a single RTX 3090 with vLLM: ~1,000 tok/s at 64 concurrent (int8 tensor-core GEMMs, fp16 DeltaNet state), 84-90 tok/s single-user (MTP with cheap drafts), 150k context — 262k with the ported KVarN 4/2-bit KV cache; patches, requant scripts, benchmarks",
+   "url": "https://github.com/syv-ai/qwen38-27b-rtx3090",
+   "created_at": "2026-08-15T09:10:56Z",
+   "external_url": "",
+   "author": "syv-ai",
+   "snippet": "Qwen3.8-27B on a single RTX 3090 with vLLM: ~1,000 tok/s at 64 concurrent (int8 tensor-core GEMMs, fp16 DeltaNet state), 84-90 tok/s single-user (MTP with cheap drafts), 150k context — 262k with the ported KVarN 4/2-bit KV cache; patches, requant scripts, benchmarks",
+   "engagement": {
+    "stars": 87
+   },
+   "also_on": [
+    {
+     "source_name": "HF trending",
+     "url": "https://huggingface.co/sakamakismile/Qwen3.8-27B-MTP-NVFP4",
+     "engagement": {
+      "likes": 37,
+      "downloads": 47358
+     }
+    },
+    {
+     "source_name": "HF daily papers",
+     "url": "https://huggingface.co/papers/2608.14614",
+     "engagement": {
+      "likes": 2
+     }
+    }
+   ],
+   "keep": true,
+   "summary": "Optimized Qwen3.8-27B inference on RTX 3090 with detailed benchmarks, quantization scripts, and KVarN cache techniques. Provides practical single-GPU setup for developers.",
+   "importance": 6,
+   "category": "tooling",
+   "group_key": "qwen38-27b-quants",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "5cac15ada9e12023",
+   "source_type": "hf_paper",
+   "source_name": "HF daily papers",
+   "title": "MOSS-VL Technical Report",
+   "url": "https://huggingface.co/papers/2608.15045",
+   "created_at": "2026-08-14T20:00:00.000Z",
+   "external_url": "",
+   "author": "",
+   "snippet": "We present MOSS-VL, an open vision-language model family that treats real-time interaction -- perceiving while it speaks -- as a first-class capability. It is co-designed across the stack: the language decoder attends to vision only through gated cross-attention, so the model can naturally see incoming frames while generating; a synthesized interaction corpus supervises when to speak, when to stay",
+   "engagement": {
+    "likes": 35
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "MOSS-VL open vision-language model with real-time streaming perception capability. Adds to the open-source multimodal model ecosystem.",
+   "importance": 6,
+   "category": "new-model-release",
+   "group_key": "moss-vl-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "2572b9fa66149537",
+   "source_type": "hf_paper",
+   "source_name": "HF daily papers",
+   "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+   "url": "https://huggingface.co/papers/2608.15669",
+   "created_at": "2026-08-15T20:00:00.000Z",
+   "external_url": "",
+   "author": "",
+   "snippet": "Scientific discovery often involves optimising expensive-to-evaluate objectives over vast, structured, and open-ended hypothesis spaces, such as molecules, protein sequences, and computer programs. Generative models such as large language models (LLMs) provide expressive priors over such spaces, but their likelihoods and self-assessments are unreliable proxies for the objectives and calibrated epi",
+   "engagement": {
+    "likes": 24
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Large Discovery Models for open-ended scientific search across structured hypothesis spaces. Demonstrates agentic LLM use for molecular and sequence design.",
+   "importance": 6,
+   "category": "research",
+   "group_key": "discovery-models-research",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "25f481e0652167f1",
+   "source_type": "hf_paper",
+   "source_name": "HF daily papers",
+   "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+   "url": "https://huggingface.co/papers/2608.14905",
+   "created_at": "2026-08-13T20:00:00.000Z",
+   "external_url": "",
+   "author": "",
+   "snippet": "AI has long assisted scientific research, but the rapid advance of LLMs and agentic scaffolds is reshaping the landscape; a single system can now carry whole-stage research from an initial hypothesis all the way to final published paper, which is a paradigm now referred to as AutoResearch. Existing evaluations reveal little about how these agents operate or where they break down. Tasks are narrowl",
+   "engagement": {
+    "likes": 19
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Diagnostic evaluation of LLM agents on 100 real-world research tasks, identifying failure modes in AutoResearch pipelines. Benchmarks end-to-end autonomous research workflows.",
+   "importance": 6,
+   "category": "research",
+   "group_key": "autoresearch-evaluation",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "b03a9850a0c7218e",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "Local agentic coding Benchmark : Qwen 3.8 27B (in many weights quants / cache quants / engine / reasoning effort) vs others.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr4bs4/local_agentic_coding_benchmark_qwen_38_27b_in/",
+   "created_at": "2026-08-17T20:45:23+00:00",
+   "external_url": "",
+   "author": "/u/WonderRico",
+   "snippet": "In  medium  reasoning mode, it both scores higher than the 3.6 version, AND is very much more efficient (almost half requests needed, and a third less tokens generated) - at DeepSeek v4 Flash 3107 MXFP4 level   The  xhigh  mode is advertised to be the best one for hard tasks. In this benchmark, however the gain is clearly not visible. The score are comparable with the medium version, while using m",
+   "engagement": {},
+   "also_on": [
+    {
+     "source_name": "r/LocalLLaMA",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqyq8r/artificial_analysis_qwen3827b_benchmarks_put_it/",
+     "engagement": {}
+    }
+   ],
+   "keep": true,
+   "summary": "Comprehensive agentic coding benchmark comparing Qwen3.8-27B at multiple reasoning levels against other models with quantization/cache variants.",
+   "importance": 6,
+   "category": "research",
+   "group_key": "qwen38-benchmarks",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "98e56a4e5d374ad9",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "llama.cpp version v0.1.0 has been released",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqszw0/llamacpp_version_v010_has_been_released/",
+   "created_at": "2026-08-17T13:53:51+00:00",
+   "external_url": "",
+   "author": "/u/Warrenio",
+   "snippet": "llama.cpp is apparently moving to semantic versioning instead of just sequential build numbers (like b10456).   The first semantic version tag was created today:  https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0    Congrats to llama.cpp on version v0.1.0!     &#32; submitted by &#32;   /u/Warrenio       [link]   &#32;   [comments]",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "llama.cpp transitions to semantic versioning with v0.1.0 release. Major tooling milestone for community inference engine.",
+   "importance": 6,
+   "category": "tooling",
+   "group_key": "llama-cpp-versioning",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "ae40e26c7f95c607",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "tencent/UI-Mate-27B · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vrhg08/tencentuimate27b_hugging_face/",
+   "created_at": "2026-08-18T06:42:32+00:00",
+   "external_url": "",
+   "author": "/u/pmttyji",
+   "snippet": "Overview    UI-Mate-27B  is an open-weight foundation GUI agent for long-horizon work across applications and operating systems. It observes live screenshots, reasons over the visible state, and produces structured keyboard and mouse actions for native desktop interaction.   UI-Mate supports two complementary modes:      General computer use:  execute tasks from natural-language instructions and l",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Tencent UI-Mate-27B open-weight foundation model for GUI automation with long-context reasoning. New multimodal agent model.",
+   "importance": 6,
+   "category": "new-model-release",
+   "group_key": "ui-mate-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "da258223d4ea22f1",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "[Paper] Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqrf6p/paper_interns2mobius_foundation_model_with/",
+   "created_at": "2026-08-17T12:49:03+00:00",
+   "external_url": "",
+   "author": "/u/pmttyji",
+   "snippet": "We introduce Mobius-v0, an architecture that comprises a globally shared Memory (FFN) that stores knowledge vectors and multiple Reasoners (Self-Attn) that iteratively achieve compositional reasoning. Using hidden states as cache and carrier, reasoners repeatedly query memory for required knowledge-vectors, while the knowledge is transmitted back to reasoning operators. Through this knowledge-reas",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Intern-S2-Mobius architecture paper with decoupled knowledge and reasoning via shared FFN memory and multiple reasoners. Novel model architecture research.",
+   "importance": 6,
+   "category": "research",
+   "group_key": "mobius-architecture",
    "curated": true,
    "pinned": false,
    "tags": []
@@ -564,6 +762,251 @@
    "importance": 6,
    "category": "research",
    "group_key": "aya-expanse-multilingual",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "765d7beae5bef789",
+   "source_type": "hackernews",
+   "source_name": "Hacker News",
+   "title": "Linux 7.3 improves performance when running out of vRAM",
+   "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+   "created_at": "2026-08-18T07:51:50Z",
+   "external_url": "https://news.ycombinator.com/item?id=49342719",
+   "author": "flaburgan",
+   "snippet": "",
+   "engagement": {
+    "points": 229,
+    "comments": 60
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Linux 7.3 kernel improvements for handling out-of-VRAM scenarios during LLM inference. Relevant for optimizing local inference performance on memory-constrained systems.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "linux-vram-optimization",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "73853ada04cdc66b",
+   "source_type": "github_repo",
+   "source_name": "GitHub trending",
+   "title": "amitshekhariitbhu/llm-inference-engineering — Learn LLM Inference Engineering step by step - from KV cache, PagedAttention, and continuous batching to vLLM, SGLang, and GPUs.",
+   "url": "https://github.com/amitshekhariitbhu/llm-inference-engineering",
+   "created_at": "2026-08-18T03:10:26Z",
+   "external_url": "",
+   "author": "amitshekhariitbhu",
+   "snippet": "Learn LLM Inference Engineering step by step - from KV cache, PagedAttention, and continuous batching to vLLM, SGLang, and GPUs.",
+   "engagement": {
+    "stars": 36
+   },
+   "also_on": [
+    {
+     "source_name": "GitHub trending",
+     "url": "https://github.com/amitshekhariitbhu/llm-inference-engineering",
+     "engagement": {
+      "stars": 36
+     }
+    }
+   ],
+   "keep": true,
+   "summary": "Educational resource covering LLM inference engineering fundamentals including KV cache, PagedAttention, and vLLM/SGLang. Useful reference for developers learning optimization techniques.",
+   "importance": 5,
+   "category": "research",
+   "group_key": "llm-inference-guide",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "bc9459f6317d3728",
+   "source_type": "hf_paper",
+   "source_name": "HF daily papers",
+   "title": "Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization",
+   "url": "https://huggingface.co/papers/2608.16072",
+   "created_at": "2026-08-16T20:00:00.000Z",
+   "external_url": "",
+   "author": "",
+   "snippet": "Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language model reasoners. However, when optimizing multiple reward objectives, existing methods typically scalarize the reward vector with a fixed weighted sum before group-wise standardization. We show that this design leads to two fundamental problems: rollouts with distinct reward profi",
+   "engagement": {
+    "likes": 33
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Research on saturation-aware reward reweighting for multi-objective RL in language model post-training. Improves training efficiency for reasoning models.",
+   "importance": 5,
+   "category": "research",
+   "group_key": "rl-training-research",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "9d151918db2e51ed",
+   "source_type": "hf_paper",
+   "source_name": "HF daily papers",
+   "title": "Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI",
+   "url": "https://huggingface.co/papers/2608.16319",
+   "created_at": "2026-08-16T20:00:00.000Z",
+   "external_url": "",
+   "author": "",
+   "snippet": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our α-release targets resea",
+   "engagement": {
+    "likes": 14
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Open-source relational learning tools: RelArena-α, TabPFN-Rel, and RPI. Releases from Prior Labs advancing reproducible ML research.",
+   "importance": 5,
+   "category": "dataset",
+   "group_key": "relational-learning-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "9281ee7ce82e1245",
+   "source_type": "rss",
+   "source_name": "Interconnects",
+   "title": "Teaching Everyone to Fish for Tokens",
+   "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+   "created_at": "2026-08-17T15:07:49+00:00",
+   "external_url": "",
+   "author": "Nathan Lambert",
+   "snippet": "Housekeeping: No voiceover for this post as I&#8217;m traveling.    The oldest comparison people try to make is how what&#8217;s happening with open models compares to foundational open-source software projects like the Linux operating system. There are fairly clean analogies, but they paint a narrow path forwards for the self-sustaining nature of the open-source model ecosystem, where once Linux ",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Essay comparing open-source LLM development trajectories to Linux ecosystem, examining business models and adoption patterns.",
+   "importance": 5,
+   "category": "discussion",
+   "group_key": "open-models-ecosystem",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "81fcb1f3d0a05212",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "After pushing 1M+ tokens through Qwen 3.8 27B, here is my optimal llama.cpp config for 16GB VRAM (73k Context, Agentic Coding)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqrt86/after_pushing_1m_tokens_through_qwen_38_27b_here/",
+   "created_at": "2026-08-17T13:05:26+00:00",
+   "external_url": "",
+   "author": "/u/chiribe",
+   "snippet": "Following up on my previous post about my budget server setup (Intel N100 + RTX 5060 Ti 16GB), a few of you asked for a deeper dive into my actual inference config and real-world agentic performance.   Like many of you, I was refreshing the page waiting to download  Qwen 3.8 27B  the second it dropped. After spending the entire weekend stress-testing it with agentic coding workflows, I managed to ",
+   "engagement": {},
+   "also_on": [
+    {
+     "source_name": "r/LocalLLaMA",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr347s/i_pushed_qwen3827b_to_99_tps_single_request_and/",
+     "engagement": {}
+    }
+   ],
+   "keep": true,
+   "summary": "Optimized llama.cpp configuration for Qwen3.8-27B on RTX 5060 Ti achieving 73k context and 1M+ token throughput. Practical deployment guide.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "qwen38-optimization",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "ecb71808d0f354b6",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "primitive-ai/Laguna-S-2.1-mixed-NVFP4-MXFP8",
+   "url": "https://huggingface.co/primitive-ai/Laguna-S-2.1-mixed-NVFP4-MXFP8",
+   "created_at": "2026-08-18T11:14:52.000Z",
+   "external_url": "",
+   "author": "primitive-ai",
+   "snippet": "transformers, safetensors, laguna, text-generation, vllm, compressed-tensors, nvfp4, mxfp8, mixed-precision, quantized, moe, blackwell",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Laguna-S 2.1 model quantized with NVIDIA's NVFP4 and MXFP8 mixed-precision formats for inference optimization on Blackwell hardware.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "laguna-mixed-quant",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "251149ad5ab2a4be",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "jpsequeira/GLM-5.2-EXL3-TR3-3.40bpw-KVarN-K4V2",
+   "url": "https://huggingface.co/jpsequeira/GLM-5.2-EXL3-TR3-3.40bpw-KVarN-K4V2",
+   "created_at": "2026-08-18T10:53:39.000Z",
+   "external_url": "",
+   "author": "jpsequeira",
+   "snippet": "vllm, safetensors, glm_moe_dsa, exl3, kvarn, glm-5.2, quantized, trellis, speculative-decoding, long-context, text-generation, conversational",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "GLM-5.2 MoE quantized to 3.40 bits-per-weight using EXL3 format with speculative decoding and long-context support for vLLM inference.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "glm52-exl3-quant",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "78d924ae755640ab",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "PreDoctor/Qwen3.8-27B-NVFP4-W4A16-WebGPU",
+   "url": "https://huggingface.co/PreDoctor/Qwen3.8-27B-NVFP4-W4A16-WebGPU",
+   "created_at": "2026-08-18T10:01:04.000Z",
+   "external_url": "",
+   "author": "PreDoctor",
+   "snippet": "qwen3.8, webgpu, browser, quantized, nvfp4, w4a16, text-generation, long-context, tool-use, reasoning, base_model:Qwen/Qwen3.8-27B, base_model:finetune:Qwen/Qwen3.8-27B",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Qwen3.8-27B quantized with NVFP4 W4A16 for WebGPU in-browser inference, enabling client-side deployment of large models.",
+   "importance": 5,
+   "category": "tooling",
+   "group_key": "qwen38-webgpu-quant",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "b224cd3753d73fc2",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "arcadia-impact/scimt-dispatch-models",
+   "url": "https://huggingface.co/arcadia-impact/scimt-dispatch-models",
+   "created_at": "2026-08-18T09:39:42.000Z",
+   "external_url": "",
+   "author": "arcadia-impact",
+   "snippet": "transformers, safetensors, gemma-3, continued-pretraining, sft, peft, lora, synthetic-data, alignment, midtraining, scimt, text-generation",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Gemma-3 continued pretraining with synthetic data alignment and midtraining techniques via the SciMT framework.",
+   "importance": 5,
+   "category": "research",
+   "group_key": "scimt-alignment",
    "curated": true,
    "pinned": false,
    "tags": []
@@ -1424,6 +1867,186 @@
    "tags": []
   },
   {
+   "id": "c07d105a1b7f94c4",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "llama.cpp adaptive MTP PR#27210",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzud4/llamacpp_adaptive_mtp_pr27210/",
+   "created_at": "2026-08-17T18:05:12+00:00",
+   "external_url": "",
+   "author": "/u/Look_0ver_There",
+   "snippet": "Just wanted to raise some attention to this PR I filed if anyone would like to try it out.   This adds an adaptive MTP mode to llama.cpp which employs a fairly simple counting-style state machine to determine the appropriate depth to set the MTP depth to dynamically.   The goal here was to make it so people can stop worrying about what the best MTP depth to use is, and just let the server figure i",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "llama.cpp adaptive MTP pull request implementing dynamic speculative decoding depth. Tooling improvement for multi-token prediction.",
+   "importance": 4,
+   "category": "tooling",
+   "group_key": "llama-cpp-features",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "a0b96461e4f5f481",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "tencent/EVIE-Preview-4.5B · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqqv2q/tencenteviepreview45b_hugging_face/",
+   "created_at": "2026-08-17T12:24:17+00:00",
+   "external_url": "",
+   "author": "/u/jacek2023",
+   "snippet": "Overview    EVIE-Preview-4.5B  is a state-of-the-art multilingual Visual Document Retrieval (VDR) model built upon  Qwen3.5-4B . It employs ColBERT-style late interaction with native  128-dimensional  multi-vector token embeddings (4.54B parameters, BF16).   By combining native GatedDeltaNet linear-attention and full-attention hybrid modeling with a compact visual projection, EVIE achieves top-tie",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Tencent EVIE-Preview-4.5B multilingual visual document retrieval model using GatedDeltaNet linear attention. Specialized open-weight model for VDR tasks.",
+   "importance": 4,
+   "category": "new-model-release",
+   "group_key": "evie-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "99449d5055888c05",
+   "source_type": "github_release",
+   "source_name": "ggml-org/llama.cpp",
+   "title": "ggml-org/llama.cpp: v0.1.2",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.2",
+   "created_at": "2026-08-18T10:23:10+00:00",
+   "external_url": "",
+   "author": "github-actions[bot]",
+   "snippet": "Note  Semantic versioning is still work in progress. \nMore info can be found in  https://github.com/ggml-org/ggml/discussions/1579  \n \n  Nightly build:   b10485  \n Change log since v0.1.1 \n   1511ce3   sync : ggml \n  da786dc   ggml : bump version to 0.20.2 (ggml/1589) \n  27e345b   build : fix xcframework + cmake clean-up ( #27304 ) \n  8b86400   ci : create pre-release with change log and nightly l",
+   "engagement": {},
+   "also_on": [
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10488",
+     "engagement": {}
+    },
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10481",
+     "engagement": {}
+    },
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.1",
+     "engagement": {}
+    },
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10472",
+     "engagement": {}
+    },
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10486",
+     "engagement": {}
+    },
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10485",
+     "engagement": {}
+    },
+    {
+     "source_name": "ggml-org/llama.cpp",
+     "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10483",
+     "engagement": {}
+    }
+   ],
+   "keep": true,
+   "summary": "llama.cpp v0.1.2 semantic versioning release with GGML syncs and OpenVINO 2026.3 updates. Community inference engine maintenance.",
+   "importance": 4,
+   "category": "tooling",
+   "group_key": "llama-cpp-releases",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "7870bf958a52ea22",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-RL-IF",
+   "url": "https://huggingface.co/BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-RL-IF",
+   "created_at": "2026-08-18T09:51:37.000Z",
+   "external_url": "",
+   "author": "BytedTsinghua-SIA",
+   "snippet": "transformers, safetensors, smollm3, text-generation, open-mopd, reinforcement-learning, instruction-following, conversational, en, dataset:BytedTsinghua-SIA/Open-MOPD-Data, base_model:BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-MixSFT, base_model:finetune:BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-MixSFT",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-RL-Math",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-RL-Code",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-Final",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    },
+    {
+     "source_name": "HF new models",
+     "url": "https://huggingface.co/BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-MixSFT",
+     "engagement": {
+      "likes": 0,
+      "downloads": 0
+     }
+    }
+   ],
+   "keep": true,
+   "summary": "Open-MOPD SmolLM3-3B fine-tuned with reinforcement learning for instruction-following; part of a reproducible training framework.",
+   "importance": 4,
+   "category": "fine-tune",
+   "group_key": "open-mopd-smalllm",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "cefdd78378165a8e",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "magyar-nlp-szine-java/mamba2-370_cont_pretrain_v1",
+   "url": "https://huggingface.co/magyar-nlp-szine-java/mamba2-370_cont_pretrain_v1",
+   "created_at": "2026-08-18T08:45:24.000Z",
+   "external_url": "",
+   "author": "magyar-nlp-szine-java",
+   "snippet": "safetensors, mamba2, state-space-model, causal-lm, hungarian, custom-code, text-generation, conversational, hu, arxiv:2405.21060, base_model:AntonV/mamba2-370m-hf, base_model:finetune:AntonV/mamba2-370m-hf",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Mamba2-370M continued pretraining for Hungarian language; demonstrates SSM performance on non-English downstream tasks.",
+   "importance": 4,
+   "category": "research",
+   "group_key": "mamba2-multilingual",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
    "id": "4b51d2cc54db0fe3",
    "source_type": "hf_model",
    "source_name": "HF trending",
@@ -1916,6 +2539,75 @@
    "tags": []
   },
   {
+   "id": "a3747ce2a2989f7a",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "bench-labs/cagliostro-v1",
+   "url": "https://huggingface.co/bench-labs/cagliostro-v1",
+   "created_at": "2026-08-18T08:06:12.000Z",
+   "external_url": "",
+   "author": "bench-labs",
+   "snippet": "transformers, safetensors, qwen3, text-generation, small-language-model, pretrained-from-scratch, en, license:mit, text-generation-inference, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 5,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Cagliostro-v1 model pre-trained from scratch with MIT license. Small open-weight model release.",
+   "importance": 3,
+   "category": "new-model-release",
+   "group_key": "cagliostro-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "f61af946fa80cd05",
+   "source_type": "reddit",
+   "source_name": "r/LocalLLaMA",
+   "title": "Ling 3.0 Tiny is the strongest, fastest and greatest model on my low end PC!",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqx6nd/ling_30_tiny_is_the_strongest_fastest_and/",
+   "created_at": "2026-08-17T16:34:29+00:00",
+   "external_url": "",
+   "author": "/u/cosmos_hu",
+   "snippet": "This Ling 3.0 Tiny 8b param with 1.3b active is the fastest, smartest model I can run on my poor old pc, with 4gb vram. It actually runs lightning fast, like 36 token / sec, as smart as Qwen 3.5 9b / Gemma 12, (Very close), and even faster because of 1.3b active parameters.   The Qwen 3.5 9b is running with like 5 token / sec, but this with 36 is finally the speed that i want. Very good open sourc",
+   "engagement": {},
+   "also_on": [],
+   "keep": true,
+   "summary": "Ling 3.0 Tiny 8B MoE model achieving 36 tok/s on 4GB VRAM with 1.3B active parameters. Useful for extremely low-end hardware.",
+   "importance": 3,
+   "category": "new-model-release",
+   "group_key": "ling-tiny-release",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "32ea336980e1c6b8",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "isbondarev/giga3.1-github-issues",
+   "url": "https://huggingface.co/isbondarev/giga3.1-github-issues",
+   "created_at": "2026-08-18T11:32:59.000Z",
+   "external_url": "",
+   "author": "isbondarev",
+   "snippet": "transformers, safetensors, deepseek_v3, text-generation, llama-factory, conversational, arxiv:1910.09700, text-generation-inference, endpoints_compatible, region:us",
+   "engagement": {
+    "likes": 0,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "Giga3.1-GitHub-Issues model fine-tuned on GitHub issue data using DeepSeek-V3 base. Domain-specific model for code issue handling.",
+   "importance": 3,
+   "category": "fine-tune",
+   "group_key": "domain-specific-finetunes",
+   "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
    "id": "a7a8ae270ef507ff",
    "source_type": "hf_model",
    "source_name": "HF trending",
@@ -2035,6 +2727,30 @@
    "category": "tooling",
    "group_key": "hub-transfer-optimization",
    "curated": true,
+   "pinned": false,
+   "tags": []
+  },
+  {
+   "id": "2d1990cc0e6f7bac",
+   "source_type": "hf_model",
+   "source_name": "HF new models",
+   "title": "optionalAI/Qwen3.8-9B-heretic-uncensored-Q4_K_M-GGUF",
+   "url": "https://huggingface.co/optionalAI/Qwen3.8-9B-heretic-uncensored-Q4_K_M-GGUF",
+   "created_at": "2026-08-18T08:28:31.000Z",
+   "external_url": "",
+   "author": "optionalAI",
+   "snippet": "transformers, gguf, empero-ai, qwen3.5, qwen3.8, distillation, reasoning, function-calling, sft, heretic, uncensored, decensored",
+   "engagement": {
+    "likes": 1,
+    "downloads": 0
+   },
+   "also_on": [],
+   "keep": true,
+   "summary": "",
+   "importance": 0,
+   "category": "discussion",
+   "group_key": "",
+   "curated": false,
    "pinned": false,
    "tags": []
   }
