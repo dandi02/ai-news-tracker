@@ -2,7 +2,7 @@ name: Daily build
 
 on:
   schedule:
-    - cron: "17 5 * * *"   # daily 05:17 UTC (off-peak minute; crons can lag under load)
+    - cron: "47 11 * * *"  # daily 11:47 UTC = ~3:47 AM Pacific — feed ready before the PST morning; crons can lag up to ~1.5h
   workflow_dispatch: {}     # manual runs + admin-console "Re-scan now"
 
 permissions:

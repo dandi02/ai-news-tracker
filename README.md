@@ -13,7 +13,8 @@ curate and score what it finds, and publishes a feed for the whole team.
 | ⚙️ Admin console + link hub | https://dandi02.github.io/ai-news-tracker/admin.html |
 | 🏗️ Daily build runs & logs | https://github.com/dandi02/ai-news-tracker/actions |
 
-**Status**: fully operational — daily automatic runs at 05:17 UTC, Claude AI
+**Status**: fully operational — daily automatic runs at 11:47 UTC (ready by
+~6 AM Pacific), Claude AI
 curation enabled, GitHub leaderboards + watchlist live. To change what gets
 tracked, edit [config/sources.yaml](config/sources.yaml) (or use the admin
 console) — the next run picks it up.
