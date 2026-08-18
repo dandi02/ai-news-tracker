@@ -6,3 +6,6 @@ venv/
 build-preview/
 .pytest_cache/
 .DS_Store
+
+# Obsidian vault — personal notes, never commit
+Ai News/
