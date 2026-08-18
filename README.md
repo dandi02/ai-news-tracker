@@ -50,7 +50,7 @@ feed shipping (items get a "keyword-ranked" badge).
    green, the feed is live at `https://YOUR_ORG.github.io/ai-news-tracker/`.
 
 5. Share the URL with the team. The RSS feed is at `…/feed.xml`. The pipeline
-   then runs automatically every day at 05:17 UTC (edit the cron in
+   then runs automatically every day at 11:47 UTC (edit the cron in
    [.github/workflows/build.yml](.github/workflows/build.yml) to taste).
 
 ### Admin access (optional, for source management & curation)
