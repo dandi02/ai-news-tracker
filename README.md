@@ -2,11 +2,21 @@
 
 Automated daily tracker for **open-source LLM news**. Every day it scans GitHub,
 Hugging Face, Reddit, Hacker News, blogs, arXiv, YouTube, and Bluesky, has Claude
-curate and score what it finds, and publishes:
+curate and score what it finds, and publishes a feed for the whole team.
 
-- 🌐 a **web feed** (GitHub Pages) the whole team can open
-- 📡 an **RSS feed** (`feed.xml`) anyone can subscribe to
-- ⚙️ an **admin console** (`admin.html`) for managing sources and curating items
+## 🔗 Live deployment
+
+| Page | URL |
+|---|---|
+| 🌐 **News feed** (share this) | **https://dandi02.github.io/ai-news-tracker/** |
+| 📡 RSS feed (for feed readers) | https://dandi02.github.io/ai-news-tracker/feed.xml |
+| ⚙️ Admin console + link hub | https://dandi02.github.io/ai-news-tracker/admin.html |
+| 🏗️ Daily build runs & logs | https://github.com/dandi02/ai-news-tracker/actions |
+
+**Status**: fully operational — daily automatic runs at 05:17 UTC, Claude AI
+curation enabled, GitHub leaderboards + watchlist live. To change what gets
+tracked, edit [config/sources.yaml](config/sources.yaml) (or use the admin
+console) — the next run picks it up.
 
 Everything runs on GitHub Actions — no servers, no database. State lives in JSON
 files committed to this repo. AI curation costs roughly **$0.10/day** (Claude
@@ -15,7 +25,9 @@ feed shipping (items get a "keyword-ranked" badge).
 
 ---
 
-## One-time setup (~10 minutes)
+## One-time setup (~10 minutes) — ✅ already done for this deployment
+
+*Kept for reference, or for forking this tracker to another repo/team.*
 
 1. **Create the GitHub repository** and push this code:
 
