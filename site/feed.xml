@@ -4,286 +4,286 @@
   <title>SQP AI News Tracker</title>
   <link>https://dandi02.github.io/ai-news-tracker/</link>
   <description>Daily curated open-source LLM news for SQP developers</description>
-  <lastBuildDate>Wed, 19 Aug 2026 12:01:58 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 12:02:46 +0000</lastBuildDate>
   <item>
-    <title>[new-model-release] Llama can now see and run on your device - welcome Llama 3.2</title>
-    <link>https://huggingface.co/blog/llama32</link>
-    <guid isPermaLink="false">171db9cdbe71b56f</guid>
-    <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
-    <description>Llama 3.2 release with vision and on-device capabilities. Major model release with multimodal and mobile deployment support. (via Hugging Face Blog, importance 9/10)</description>
+    <title>[new-model-release] Welcome Llama 3 - Meta's new open LLM</title>
+    <link>https://huggingface.co/blog/llama3</link>
+    <guid isPermaLink="false">34a09cc32d06fe48</guid>
+    <pubDate>Thu, 18 Apr 2024 00:00:00 +0000</pubDate>
+    <description>Meta releases Llama 3, a major open-weight LLM family with multiple size variants. (via Hugging Face Blog, importance 10/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Llama 3.1 - 405B, 70B &amp; 8B with multilinguality and long context</title>
-    <link>https://huggingface.co/blog/llama31</link>
-    <guid isPermaLink="false">3cfc12f970fb057f</guid>
-    <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-    <description>Llama 3.1 405B, 70B, and 8B models with multilinguality and long context. Major release of Meta's flagship LLM family. (via Hugging Face Blog, importance 9/10)</description>
+    <title>[new-model-release] Welcome Gemma - Google’s new open LLM</title>
+    <link>https://huggingface.co/blog/gemma</link>
+    <guid isPermaLink="false">bf5f4f217684e89f</guid>
+    <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+    <description>Google releases Gemma, an open-weight LLM family with multiple sizes for research and production use. (via Hugging Face Blog, importance 9/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Welcome Gemma 2 - Google’s new open LLM</title>
-    <link>https://huggingface.co/blog/gemma2</link>
-    <guid isPermaLink="false">4bb6eca3caf6a1a0</guid>
-    <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-    <description>Gemma 2 announced as Google's new open LLM. Major open-weight model release from Google. (via Hugging Face Blog, importance 8/10)</description>
+    <title>[new-model-release] StarCoder2 and The Stack v2</title>
+    <link>https://huggingface.co/blog/starcoder2</link>
+    <guid isPermaLink="false">28b58504ebbb4e3d</guid>
+    <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+    <description>StarCoder2 and The Stack v2 release provides major code LLM and high-quality code training dataset. (via Hugging Face Blog, importance 8/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages</title>
-    <link>https://huggingface.co/blog/falcon2-11b</link>
-    <guid isPermaLink="false">7ebc44308fa50285</guid>
-    <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
-    <description>Falcon 2 is an 11B open-weight multilingual language and vision model trained on 5T tokens. Significant open model release suitable for deployment and fine-tuning. (via Hugging Face Blog, importance 8/10)</description>
+    <title>[new-model-release] Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face</title>
+    <link>https://huggingface.co/blog/mixtral</link>
+    <guid isPermaLink="false">8de79d4ed2834d08</guid>
+    <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+    <description>Mixtral 8x7B Mixture of Experts model release; significant architecture milestone for open-weight models. (via Hugging Face Blog, importance 8/10)</description>
   </item>
   <item>
-    <title>[new-model-release] PaliGemma – Google's Cutting-Edge Open Vision Language Model</title>
-    <link>https://huggingface.co/blog/paligemma</link>
-    <guid isPermaLink="false">ad95f32a819fb204</guid>
-    <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
-    <description>PaliGemma is Google's open-weight vision-language model available on Hugging Face. Significant open VLM release for multimodal applications. (via Hugging Face Blog, importance 8/10)</description>
+    <title>[new-model-release] StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation</title>
+    <link>https://huggingface.co/blog/sc2-instruct</link>
+    <guid isPermaLink="false">982bf88ee62f87ec</guid>
+    <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+    <description>StarCoder2-Instruct is a fully transparent, permissively licensed code generation model with self-alignment methodology. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Diffusers welcomes Stable Diffusion 3.5 Large</title>
-    <link>https://huggingface.co/blog/sd3-5</link>
-    <guid isPermaLink="false">76017462e5f9ca4f</guid>
-    <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-    <description>Stable Diffusion 3.5 Large is now integrated in the Diffusers library. Provides access to improved image generation model for developers. (via Hugging Face Blog, importance 7/10)</description>
+    <title>[new-model-release] Introducing Idefics2: A Powerful 8B Vision-Language Model for the community</title>
+    <link>https://huggingface.co/blog/idefics2</link>
+    <guid isPermaLink="false">83612c9b39efb62f</guid>
+    <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+    <description>Idefics2 is an 8B open-weight vision-language model for multimodal understanding tasks. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[tooling] Accelerate 1.0.0</title>
-    <link>https://huggingface.co/blog/accelerate-v1</link>
-    <guid isPermaLink="false">0dc469edcb7712a5</guid>
-    <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
-    <description>Accelerate 1.0.0 stable release for distributed training. Major version milestone for core training acceleration library. (via Hugging Face Blog, importance 7/10)</description>
+    <title>[new-model-release] CodeGemma - an official Google release for code LLMs</title>
+    <link>https://huggingface.co/blog/codegemma</link>
+    <guid isPermaLink="false">4b7827fd74a696dd</guid>
+    <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+    <description>Google releases CodeGemma, an official open-weight code LLM for code generation tasks. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[new-model-release] Welcome Falcon Mamba: The first strong attention-free 7B model</title>
-    <link>https://huggingface.co/blog/falconmamba</link>
-    <guid isPermaLink="false">5574e597bbbe9cd3</guid>
-    <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-    <description>Falcon Mamba 7B model released—first strong attention-free alternative to transformers. New architecture approach for efficient LLMs. (via Hugging Face Blog, importance 7/10)</description>
+    <title>[tooling] Make LLM Fine-tuning 2x faster with Unsloth and 🤗 TRL</title>
+    <link>https://huggingface.co/blog/unsloth-trl</link>
+    <guid isPermaLink="false">eec7c5c34b5428a1</guid>
+    <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+    <description>Unsloth integration with TRL library for 2x faster LLM fine-tuning, significant efficiency improvement for training. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[new-model-release] SmolLM - blazingly fast and remarkably powerful</title>
-    <link>https://huggingface.co/blog/smollm</link>
-    <guid isPermaLink="false">e695f7e7f26b3b1c</guid>
-    <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
-    <description>SmolLM family of small language models combining efficiency and performance. Lightweight models for resource-constrained deployment. (via Hugging Face Blog, importance 7/10)</description>
+    <title>[tooling] Optimum-NVIDIA Unlocking blazingly fast LLM inference in just 1 line of code</title>
+    <link>https://huggingface.co/blog/optimum-nvidia</link>
+    <guid isPermaLink="false">3c4bd4f687b2d12d</guid>
+    <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+    <description>Optimum-NVIDIA library for one-line accelerated LLM inference on NVIDIA hardware with automatic optimization. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[research] CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models</title>
-    <link>https://huggingface.co/blog/leaderboard-llamaguard</link>
-    <guid isPermaLink="false">6eae4484551db404</guid>
-    <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
-    <description>CyberSecEval 2 is a comprehensive evaluation framework for assessing security risks and capabilities of LLMs. Important research for security-critical LLM deployments. (via Hugging Face Blog, importance 7/10)</description>
+    <title>[tooling] Goodbye cold boot - how we made LoRA Inference 300% faster</title>
+    <link>https://huggingface.co/blog/lora-adapters-dynamic-loading</link>
+    <guid isPermaLink="false">a35ab1e6da483e14</guid>
+    <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+    <description>LoRA inference cold-boot optimization achieving 3x speedup; critical for production serving latency. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[tooling] SigmanticAI/apex-inference-chip — An inference chip design that runs a real LLM (Qwen2.5-0.5B) on FPGA — one transformer decoder layer in RTL, every silicon value bit-exact against a golden model. 0.56 tok/s measured, a 140× climb, full evidence trail.</title>
-    <link>https://github.com/SigmanticAI/apex-inference-chip</link>
-    <guid isPermaLink="false">d066aaa39f3988a9</guid>
-    <pubDate>Mon, 17 Aug 2026 04:25:26 +0000</pubDate>
-    <description>FPGA inference chip design running Qwen2.5-0.5B with one RTL transformer decoder layer achieving 0.56 tok/s. Demonstrates bit-exact model replication on custom hardware. (via GitHub trending, importance 6/10)</description>
+    <title>[research] The N Implementation Details of RLHF with PPO</title>
+    <link>https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo</link>
+    <guid isPermaLink="false">1f0702cc3a3f10a0</guid>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+    <description>Deep technical guide to RLHF implementation details with PPO algorithm, essential reference for alignment training. (via Hugging Face Blog, importance 7/10)</description>
   </item>
   <item>
-    <title>[research] StateM: Reaching 95.3% Raw Accuracy, or a \$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling</title>
-    <link>https://huggingface.co/papers/2608.15089</link>
-    <guid isPermaLink="false">23ec62a0bbb77ceb</guid>
-    <pubDate>Fri, 14 Aug 2026 20:00:00 +0000</pubDate>
-    <description>StateM improves long-horizon agent execution to 95.3% on Terminal-Bench via harness scaling, achieving frontier performance at $15 compute cost. (via HF daily papers, importance 6/10)</description>
-  </item>
-  <item>
-    <title>[research] ASI-Bench: At the Dawn of Artificial Superintelligence</title>
-    <link>https://huggingface.co/papers/2608.17271</link>
-    <guid isPermaLink="false">a4b98ccd25947b5a</guid>
-    <pubDate>Mon, 17 Aug 2026 20:00:00 +0000</pubDate>
-    <description>ASI-Bench benchmarks frontier models on knowledge creation and exploration beyond training data. Evaluates reasoning and discovery capabilities. (via HF daily papers, importance 6/10)</description>
-  </item>
-  <item>
-    <title>[tooling] FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution</title>
-    <link>https://huggingface.co/papers/2608.16157</link>
-    <guid isPermaLink="false">9376b61147eee176</guid>
+    <title>[research] Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence</title>
+    <link>https://huggingface.co/papers/2608.16590</link>
+    <guid isPermaLink="false">d2ebf04cf0e80ea3</guid>
     <pubDate>Sun, 16 Aug 2026 20:00:00 +0000</pubDate>
-    <description>FreeToken: MoE serving system optimizing edge inference with bandwidth-adaptive execution. Treats personal machines as unified elastic platforms for frontier models. (via HF daily papers, importance 6/10)</description>
+    <description>Zetta: closed-loop embodied agent harness for self-evolving physical intelligence. Research on agentic learning in robotics. (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows</title>
-    <link>https://huggingface.co/papers/2608.17800</link>
-    <guid isPermaLink="false">494583b8c09fa641</guid>
+    <title>[research] SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation</title>
+    <link>https://huggingface.co/papers/2608.18565</link>
+    <guid isPermaLink="false">b4644eb31e9a3dae</guid>
+    <pubDate>Tue, 18 Aug 2026 20:00:00 +0000</pubDate>
+    <description>SemaPLC: verification-gated agent harness for PLC code generation. Addresses correctness in industrial LLM systems. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[dataset] zorost/AI-Engineering-Lab — A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.</title>
+    <link>https://github.com/zorost/AI-Engineering-Lab</link>
+    <guid isPermaLink="false">2698a06b54f649e0</guid>
+    <pubDate>Mon, 17 Aug 2026 16:34:05 +0000</pubDate>
+    <description>AI Engineering Lab: 24-week free open-source course covering LLMs, RAG, fine-tuning, agents, and MCP with 43 runnable notebooks. (via GitHub trending, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL</title>
+    <link>https://huggingface.co/papers/2608.17253</link>
+    <guid isPermaLink="false">28a139730e541d20</guid>
+    <pubDate>Tue, 18 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Co-RL: unsupervised reasoning in language/vision models via multi-agent RL without ground-truth supervision. Research on reasoning training. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] SPADE: Self-Play in Adaptive Synthetic Executable Environments</title>
+    <link>https://huggingface.co/papers/2608.19197</link>
+    <guid isPermaLink="false">fad701352d40e865</guid>
+    <pubDate>Tue, 18 Aug 2026 20:00:00 +0000</pubDate>
+    <description>SPADE: self-play framework for language agents with adaptive goal synthesis. Training method for continuous agent improvement. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding</title>
+    <link>https://huggingface.co/papers/2608.17402</link>
+    <guid isPermaLink="false">aa32ad6492969aac</guid>
     <pubDate>Mon, 17 Aug 2026 20:00:00 +0000</pubDate>
-    <description>StartupBench: Market-validated workflow benchmark for general-purpose agents. Evaluates real-world productivity gains from agentic systems. (via HF daily papers, importance 6/10)</description>
+    <description>MoE-ViE: mixture-of-experts vision encoder for efficient multimodal scaling. Architecture for efficient vision-language models. (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Abra: Scaling Diffusion Image Training</title>
-    <link>https://huggingface.co/papers/2608.17286</link>
-    <guid isPermaLink="false">bfd3b14b12f44c94</guid>
+    <title>[research] FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents</title>
+    <link>https://huggingface.co/papers/2608.18423</link>
+    <guid isPermaLink="false">94a947769aefc426</guid>
+    <pubDate>Tue, 18 Aug 2026 20:00:00 +0000</pubDate>
+    <description>FM-Bench: long-horizon agent benchmark with competing agents and cumulative consequences. Evaluation framework for complex agentic tasks. (via HF daily papers, importance 6/10)</description>
+  </item>
+  <item>
+    <title>[research] PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX</title>
+    <link>https://huggingface.co/papers/2608.17379</link>
+    <guid isPermaLink="false">d7614db83bf85877</guid>
     <pubDate>Mon, 17 Aug 2026 20:00:00 +0000</pubDate>
-    <description>Abra: Systematic scaling law study for text-to-image diffusion models across three orders of magnitude. Guides compute-optimal training of visual generation. (via HF daily papers, importance 6/10)</description>
+    <description>PTXBench is a benchmark for evaluating and adapting LLMs to generate architecture-specific PTX code for GPU kernel optimization, measuring correctness and speedup. (via HF daily papers, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Releasing Outlines-core 0.1.0: structured generation in Rust and Python</title>
-    <link>https://huggingface.co/blog/outlines-core</link>
-    <guid isPermaLink="false">734f3ff5d8c30bc7</guid>
-    <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-    <description>Outlines-core 0.1.0 brings structured generation capabilities to Rust and Python. Enables constrained decoding for deterministic model outputs. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] Introducing the Open Chain of Thought Leaderboard</title>
+    <link>https://huggingface.co/blog/leaderboard-cot</link>
+    <guid isPermaLink="false">50e9c5c33826d97d</guid>
+    <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+    <description>Open Chain of Thought Leaderboard provides benchmark infrastructure for evaluating LLM reasoning and transparency. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Welcome, Gradio 5</title>
-    <link>https://huggingface.co/blog/gradio-5</link>
-    <guid isPermaLink="false">cc077c9dbc9e5713</guid>
-    <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-    <description>Gradio 5 release with new features for model UI deployment. Updates the popular interface framework for LLM demos. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare</title>
+    <link>https://huggingface.co/blog/leaderboard-medicalllm</link>
+    <guid isPermaLink="false">74c03af8aa30ca3b</guid>
+    <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+    <description>Open Medical-LLM Leaderboard benchmarks LLM performance on healthcare tasks and domain-specific capabilities. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Faster Assisted Generation with Dynamic Speculation</title>
-    <link>https://huggingface.co/blog/dynamic_speculation_lookahead</link>
-    <guid isPermaLink="false">8f34a0edb8c6a9b5</guid>
-    <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-    <description>Dynamic speculation technique for faster assisted generation in LLMs. Improves inference speed through speculative decoding. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs</title>
+    <link>https://huggingface.co/blog/leaderboard-livecodebench</link>
+    <guid isPermaLink="false">143a101afbd7df8a</guid>
+    <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+    <description>LiveCodeBench Leaderboard provides contamination-free evaluation for code generation LLMs. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Introducing the Open FinLLM Leaderboard</title>
-    <link>https://huggingface.co/blog/leaderboard-finbench</link>
-    <guid isPermaLink="false">0b5158215ab2b48d</guid>
-    <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-    <description>Open FinLLM Leaderboard introduced for benchmarking financial LLMs. Provides evaluation standard for domain-specific models. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] Bringing serverless GPU inference to Hugging Face users</title>
+    <link>https://huggingface.co/blog/cloudflare-workers-ai</link>
+    <guid isPermaLink="false">133e06c7381bc143</guid>
+    <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+    <description>Hugging Face launches serverless GPU inference enabling accessible model deployment without infrastructure management. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[fine-tune] Fine-tuning LLMs to 1.58bit: extreme quantization made easy</title>
-    <link>https://huggingface.co/blog/1_58_llm_extreme_quantization</link>
-    <guid isPermaLink="false">b08a603774ef5236</guid>
-    <pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate>
-    <description>Method for fine-tuning LLMs at extreme 1.58-bit quantization. Enables ultra-low-bitwidth model training and deployment. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[dataset] Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models</title>
+    <link>https://huggingface.co/blog/cosmopedia</link>
+    <guid isPermaLink="false">ee03035f24cbc42e</guid>
+    <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+    <description>Cosmopedia dataset and methodology for generating large-scale synthetic training data for LLM pre-training. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Introduction to ggml</title>
-    <link>https://huggingface.co/blog/introduction-to-ggml</link>
-    <guid isPermaLink="false">e576bf077c1dcbbb</guid>
-    <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-    <description>Introduction to ggml framework for efficient inference. Core library for running quantized models locally. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] GaLore: Advancing Large Model Training on Consumer-grade Hardware</title>
+    <link>https://huggingface.co/blog/galore</link>
+    <guid isPermaLink="false">5e1c7567b105d3a2</guid>
+    <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+    <description>GaLore enables training large models on consumer-grade hardware by reducing gradient memory requirements. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Tool Use, Unified</title>
-    <link>https://huggingface.co/blog/unified-tool-use</link>
-    <guid isPermaLink="false">3ff14bef328ca617</guid>
-    <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-    <description>Unified tool-use framework for LLMs. Standardizes how models interact with external tools and APIs. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] Introducing the Red-Teaming Resistance Leaderboard</title>
+    <link>https://huggingface.co/blog/leaderboard-haizelab</link>
+    <guid isPermaLink="false">46dd1904ada3dac5</guid>
+    <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+    <description>Red-Teaming Resistance Leaderboard measures LLM robustness against adversarial attacks and jailbreak attempts. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Serverless Inference with Hugging Face and NVIDIA NIM</title>
-    <link>https://huggingface.co/blog/inference-dgx-cloud</link>
-    <guid isPermaLink="false">9e39a87d6d802664</guid>
-    <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
-    <description>Serverless inference combining Hugging Face and NVIDIA NIM. Hosted inference solution for deploying LLMs. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World Use Cases</title>
+    <link>https://huggingface.co/blog/leaderboard-patronus</link>
+    <guid isPermaLink="false">ebab6bf73cfa00e7</guid>
+    <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+    <description>Enterprise Scenarios Leaderboard evaluates LLMs on real-world production use cases and requirements. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] TGI Multi-LoRA: Deploy Once, Serve 30 Models</title>
-    <link>https://huggingface.co/blog/multi-lora-serving</link>
-    <guid isPermaLink="false">9db15157aebc10d6</guid>
-    <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
-    <description>TGI Multi-LoRA enables serving 30 models from single deployment. Efficient inference framework for multi-adapter serving. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] The Hallucinations Leaderboard, an Open Effort to Measure Hallucinations in Large Language Models</title>
+    <link>https://huggingface.co/blog/leaderboard-hallucinations</link>
+    <guid isPermaLink="false">b099864f750a3940</guid>
+    <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+    <description>Hallucinations Leaderboard measures and tracks factual accuracy and hallucination rates in LLMs. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] How NuminaMath Won the 1st AIMO Progress Prize</title>
-    <link>https://huggingface.co/blog/winning-aimo-progress-prize</link>
-    <guid isPermaLink="false">67bf58500d5bc014</guid>
-    <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-    <description>NuminaMath's winning approach for AIMO Progress Prize in mathematics reasoning. Documents techniques for mathematical problem-solving in LLMs. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] An Introduction to AI Secure LLM Safety Leaderboard</title>
+    <link>https://huggingface.co/blog/leaderboard-decodingtrust</link>
+    <guid isPermaLink="false">2bf53b42f9daf82e</guid>
+    <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+    <description>AI Secure LLM Safety Leaderboard benchmarks security vulnerabilities and safety capabilities of LLMs. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Google Cloud TPUs made available to Hugging Face users</title>
-    <link>https://huggingface.co/blog/tpu-inference-endpoints-spaces</link>
-    <guid isPermaLink="false">8b10bd179aa5b978</guid>
-    <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-    <description>Google Cloud TPUs available to Hugging Face users. Infrastructure support for training on TPU accelerators. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[fine-tune] Preference Tuning LLMs with Direct Preference Optimization Methods</title>
+    <link>https://huggingface.co/blog/pref-tuning</link>
+    <guid isPermaLink="false">ea13acb503eb969a</guid>
+    <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+    <description>Guide to preference tuning methods like DPO for LLMs using Hugging Face tools, applicable to alignment workflows. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Our Transformers Code Agent beats the GAIA benchmark 🏅</title>
-    <link>https://huggingface.co/blog/beating-gaia</link>
-    <guid isPermaLink="false">f3e020bd9e06b8f5</guid>
-    <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-    <description>Transformers Code Agent achieves state-of-the-art on GAIA benchmark. Agent-based reasoning outperforms baselines. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[new-model-release] Welcome aMUSEd: Efficient Text-to-Image Generation</title>
+    <link>https://huggingface.co/blog/amused</link>
+    <guid isPermaLink="false">a2f7db2f0140456d</guid>
+    <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+    <description>aMUSEd: efficient masked-prediction approach to text-to-image generation, lighter alternative to diffusion models. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] BigCodeBench: The Next Generation of HumanEval</title>
-    <link>https://huggingface.co/blog/leaderboard-bigcodebench</link>
-    <guid isPermaLink="false">21f7672aa80780b7</guid>
-    <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-    <description>BigCodeBench is a new benchmark for code generation models that extends HumanEval with broader evaluation capabilities. Developers evaluating code LLMs will benefit from more comprehensive performance metrics. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] Speculative Decoding for 2x Faster Whisper Inference</title>
+    <link>https://huggingface.co/blog/whisper-speculative-decoding</link>
+    <guid isPermaLink="false">09e01470b030d564</guid>
+    <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+    <description>Speculative decoding optimization for Whisper achieving 2x inference speedup via parallel drafting. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[tooling] Diffusers welcomes Stable Diffusion 3</title>
-    <link>https://huggingface.co/blog/sd3</link>
-    <guid isPermaLink="false">b3c7ceee1b7e79a1</guid>
-    <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-    <description>Stable Diffusion 3 support added to Hugging Face Diffusers library. Enables open-source image generation development with a new model release. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</title>
+    <link>https://huggingface.co/blog/huggingface-and-optimum-amd</link>
+    <guid isPermaLink="false">79a5ed17e041cb72</guid>
+    <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+    <description>AMD GPU support for LLM inference via Hugging Face optimization, broadens hardware compatibility beyond NVIDIA. (via Hugging Face Blog, importance 6/10)</description>
   </item>
   <item>
-    <title>[research] Putting RL back in RLHF</title>
-    <link>https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo</link>
-    <guid isPermaLink="false">86bfd3a157526047</guid>
-    <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-    <description>Article on reinforcement learning techniques applied to RLHF training for LLMs. Covers practical improvements to alignment training methodology. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] fx :Tiny, open, native coding agent.</title>
+    <link>https://fx.sh</link>
+    <guid isPermaLink="false">bb00701314a45b68</guid>
+    <pubDate>Tue, 18 Aug 2026 22:00:21 +0000</pubDate>
+    <description>fx: tiny open-source native coding agent. Lightweight agentic framework relevant to developers building LLM systems. (via Hacker News, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] Launching the Artificial Analysis Text to Image Leaderboard &amp; Arena</title>
-    <link>https://huggingface.co/blog/leaderboard-artificial-analysis2</link>
-    <guid isPermaLink="false">2e286297c38b0f0f</guid>
-    <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-    <description>Artificial Analysis Text-to-Image Leaderboard launched on Hugging Face for benchmarking generative models. Provides comparative evaluation of open and closed image generation models. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] Unsloth Dynamic 3.0 GGUFs</title>
+    <link>https://unsloth.ai/docs/basics/dynamic-3.0-ggufs</link>
+    <guid isPermaLink="false">5bdbe701c0fd467f</guid>
+    <pubDate>Wed, 19 Aug 2026 18:36:45 +0000</pubDate>
+    <description>Unsloth Dynamic 3.0 GGUFs released. Optimization framework for GGUF quantization and inference. (via Hacker News, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] Benchmarking Text Generation Inference</title>
-    <link>https://huggingface.co/blog/tgi-benchmarking</link>
-    <guid isPermaLink="false">d1df20c20978b7e1</guid>
-    <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
-    <description>Benchmarking analysis of Hugging Face Text Generation Inference performance. Provides performance metrics for production inference evaluation. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] Vistyy/nopus — Deterministic prose checks for clearer coding-agent responses</title>
+    <link>https://github.com/Vistyy/nopus</link>
+    <guid isPermaLink="false">034344631dcdab32</guid>
+    <pubDate>Sat, 15 Aug 2026 12:53:20 +0000</pubDate>
+    <description>nopus: deterministic prose checks for coding-agent responses. Tooling to improve agent output consistency. (via GitHub trending, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] Unlocking Longer Generation with Key-Value Cache Quantization</title>
-    <link>https://huggingface.co/blog/kv-cache-quantization</link>
-    <guid isPermaLink="false">66dc9bf0ce533767</guid>
-    <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
-    <description>Technique for quantizing key-value cache to reduce memory during long-context generation. Improves inference efficiency for extended outputs. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[tooling] squall01337/mixamo-llm-mocap — Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent.</title>
+    <link>https://github.com/squall01337/mixamo-llm-mocap</link>
+    <guid isPermaLink="false">f7cc15009ac94022</guid>
+    <pubDate>Mon, 17 Aug 2026 21:05:02 +0000</pubDate>
+    <description>mixamo-llm-mocap: AI-operable tool converting video to Mixamo animations via GVHMR and MCP. Agent-driven workflow automation. (via GitHub trending, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] License to Call: Introducing Transformers Agents 2.0</title>
-    <link>https://huggingface.co/blog/agents</link>
-    <guid isPermaLink="false">2b782010fa6d195f</guid>
-    <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-    <description>Transformers Agents 2.0 introduces improved agentic capabilities and tool calling for LLMs. Advances tooling for building autonomous agent applications. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation</title>
+    <link>https://huggingface.co/papers/2608.17426</link>
+    <guid isPermaLink="false">bcef53047158689b</guid>
+    <pubDate>Mon, 17 Aug 2026 20:00:00 +0000</pubDate>
+    <description>SemComp-Bench: benchmark for semantic task completion in video generation. Evaluation framework for outcome-oriented generation. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[research] Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face</title>
-    <link>https://huggingface.co/blog/leaderboard-artificial-analysis</link>
-    <guid isPermaLink="false">54c8ec864307b629</guid>
-    <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-    <description>Artificial Analysis LLM Performance Leaderboard integrated into Hugging Face for centralized model benchmarking. Provides comprehensive performance comparisons for model selection. (via Hugging Face Blog, importance 6/10)</description>
+    <title>[research] Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning</title>
+    <link>https://huggingface.co/papers/2608.18746</link>
+    <guid isPermaLink="false">cd00a56368fe7df8</guid>
+    <pubDate>Tue, 18 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Decision-metric alignment in latent world models for MPC planning. Research on world model training for agent control. (via HF daily papers, importance 5/10)</description>
   </item>
   <item>
-    <title>[tooling] Powerful ASR + diarization + speculative decoding with Hugging Face Inference Endpoints</title>
-    <link>https://huggingface.co/blog/asr-diarization</link>
-    <guid isPermaLink="false">95e5799cfb4fb4a5</guid>
-    <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-    <description>Hugging Face Inference Endpoints now supports ASR, diarization, and speculative decoding together. Enables optimized audio processing pipelines in production. (via Hugging Face Blog, importance 6/10)</description>
-  </item>
-  <item>
-    <title>[fine-tune] incoai/Qwen3.8-27B-DFlash2</title>
-    <link>https://huggingface.co/incoai/Qwen3.8-27B-DFlash2</link>
-    <guid isPermaLink="false">36455e98294d2efc</guid>
-    <pubDate>Tue, 18 Aug 2026 04:09:16 +0000</pubDate>
-    <description>DFlash2 speculative decoding fine-tune of Qwen3.8-27B with draft-model optimization for vLLM/SGLang inference acceleration. (via HF trending, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[research] AI usage patterns in software teams</title>
-    <link>https://linear.app/data</link>
-    <guid isPermaLink="false">d3c89fb31dea3c6d</guid>
-    <pubDate>Tue, 18 Aug 2026 22:08:07 +0000</pubDate>
-    <description>Research on AI usage patterns in software development teams. Data-driven analysis of practical LLM adoption in production workflows. (via Hacker News, importance 5/10)</description>
-  </item>
-  <item>
-    <title>[tooling] The Mojo language (by Modular, now Qualcomm) is now open-source</title>
-    <link>https://www.modular.com/blog/modcon-announcements</link>
-    <guid isPermaLink="false">91fdf93c2fbce762</guid>
-    <pubDate>Wed, 19 Aug 2026 07:47:19 +0000</pubDate>
-    <description>Mojo language by Modular (now Qualcomm) is open-sourced. Relevant for AI infrastructure as performance-focused language for ML systems. (via Hacker News, importance 5/10)</description>
+    <title>[research] Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification</title>
+    <link>https://huggingface.co/papers/2608.14929</link>
+    <guid isPermaLink="false">812f45b091fad5f5</guid>
+    <pubDate>Thu, 13 Aug 2026 20:00:00 +0000</pubDate>
+    <description>Training lineage verification for open-weight models via weight signatures. Method to detect model provenance without external data. (via HF daily papers, importance 5/10)</description>
   </item>
 </channel>
 </rss>
